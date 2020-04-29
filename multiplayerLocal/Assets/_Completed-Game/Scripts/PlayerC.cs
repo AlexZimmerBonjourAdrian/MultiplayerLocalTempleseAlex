@@ -2,17 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerC : MonoBehaviour
+public class PlayerC : PlayerController
 {
     // Start is called before the first frame update
-    void Start()
+    public override void Start()
     {
-        
+        base.Start();
     }
 
     // Update is called once per frame
-    void Update()
+    public override void FixedUpdate()
     {
-        
+        base.FixedUpdate();
+    }
+    /*
+    public override void SetCountText()
+    {
+        base.SetCountText();
+    }
+    */
+    protected override void Move()
+    {
+        base.Move();
+    }
+    public override void AsignControll()
+    {
+        base.AsignControll();
+    }
+    public override void OnChange()
+    {
+
     }
 }

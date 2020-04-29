@@ -64,9 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_Completed-Game\Scripts\CLevelState.cs" />
-    <Compile Include="Assets\_Completed-Game\Scripts\CPlayerController.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CPlayerManager.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CSwitchCharacter.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CameraController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\IChange.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerA.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerB.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerC.cs" />

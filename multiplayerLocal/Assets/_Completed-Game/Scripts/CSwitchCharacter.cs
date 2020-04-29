@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CPlayerController : MonoBehaviour
+public class CSwitchCharacter : MonoBehaviour
 {
+    private List<PlayerController> _player = new List<PlayerController>();
+    private GameObject[] arrobj = new GameObject[3];
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +17,6 @@ public class CPlayerController : MonoBehaviour
     {
         
     }
+    
+    
 }
