@@ -59,7 +59,18 @@ public class CPlayerManager : MonoBehaviour
                 _ListObject.RemoveAt(i);
             }
         }
-
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            changedCharacter(1, 0);
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            changedCharacter(2, 0);
+        }
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            changedCharacter(3, 0);
+        }
         
     }
 
@@ -68,6 +79,7 @@ public class CPlayerManager : MonoBehaviour
         
         if (_PlayerList.Count <= 2)
         {
+            
             GameObject obj = (GameObject)Instantiate(_AssetManager[0], Pos, Quaternion.identity);
             PlayerController newPlayer = obj.GetComponent<PlayerA>();
            // newPlayer.AsignControll();
@@ -89,6 +101,7 @@ public class CPlayerManager : MonoBehaviour
             switch (count)
             {
                 case 1:
+                Destroy(_obj);
                     _obj = (GameObject)Instantiate(_AssetManager[0], _ListObject[0].transform.position, Quaternion.identity);
                     newPlayer = _obj.GetComponent<PlayerA>();
                     _PlayerList[NumPlayer] = newPlayer;
@@ -100,13 +113,15 @@ public class CPlayerManager : MonoBehaviour
                     */
                     break;
                 case 2:
-                    _obj = (GameObject)Instantiate(_AssetManager[1], _ListObject[0].transform.position, Quaternion.identity);
+                Destroy(_obj);
+                _obj = (GameObject)Instantiate(_AssetManager[1], _ListObject[0].transform.position, Quaternion.identity);
                     newPlayer = _obj.GetComponent<PlayerB>();
                     _PlayerList[NumPlayer] = newPlayer;
                     _ListObject[0] = null;
                     break;
                 case 3:
-                    _obj = (GameObject)Instantiate(_AssetManager[2], _ListObject[0].transform.position, Quaternion.identity);
+                Destroy(_obj);
+                _obj = (GameObject)Instantiate(_AssetManager[2], _ListObject[0].transform.position, Quaternion.identity);
                     newPlayer = _obj.GetComponent<PlayerC>();
                     _PlayerList[NumPlayer] = newPlayer;
                     _ListObject[0] = null;
