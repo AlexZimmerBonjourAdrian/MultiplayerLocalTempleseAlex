@@ -11,6 +11,14 @@ public class CLevelState : MonoBehaviour
         CPlayerManager.Inst.Spawn(position.position);  
     }
 
+    public void Update()
+    {
+        //Temp code to text Spawn Secundary Character
+        if(Input.GetKeyDown(KeyCode.Tab))
+        {
+            CPlayerManager.Inst.Spawn(position.position + Vector3.right * 5f);
+        }
+    }
     // Update is called once per frame
- 
+
 }

@@ -4,6 +4,7 @@
 using UnityEngine.UI;
 
 using System.Collections;
+using System;
 
 public class PlayerController : MonoBehaviour, IChange {
 	
@@ -17,8 +18,17 @@ public class PlayerController : MonoBehaviour, IChange {
 	public int _PlayerCount=0;
 	protected int count;
 	protected int Control;
-	// At the start of the game..
-	public virtual void Start ()
+	protected Vector3 movement;
+    [SerializeField] protected GameObject Attack_1_GameObject;
+    [SerializeField] protected GameObject Attack_2_GameObject;
+
+    [SerializeField] protected Transform Attack_Pos;
+
+    [SerializeField] protected float _ForceJump;
+
+	public Action OnAsignateController;
+    // At the start of the game..
+    public virtual void Start ()
 	{
 		// Assign the Rigidbody component to our private rb variable
 		rb = GetComponent<Rigidbody>();
@@ -31,6 +41,7 @@ public class PlayerController : MonoBehaviour, IChange {
 
 		// Set the text property of our Win Text UI to an empty string, making the 'You Win' (game over message) blank
 		//winText.text = "";
+	
 	}
 	
 	// Each physics step..
@@ -51,7 +62,7 @@ public class PlayerController : MonoBehaviour, IChange {
 	{
 		float moveHorizontal;
 		float moveVertical;
-		Vector3 movement;
+		//bool Jump;
 		/*
 		switch (_PlayerCount)
 		{
@@ -78,10 +89,36 @@ public class PlayerController : MonoBehaviour, IChange {
 		moveHorizontal = Input.GetAxis("Horizontal");
 		moveVertical = Input.GetAxis("Vertical");
 		movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-		rb.AddForce(movement * speed);
+
+        //Jump = Input.GetKeyDown('Jump');
+
+        if(Input.GetButtonDown("Jump"))
+        {
+                  rb.AddForce(Vector3.up * _ForceJump,ForceMode.Impulse);
+        }
+      //  rb.AddForce(movement * speed);
 
 
-	}
+    }
+
+    protected virtual void EspecialHability()
+	{
+		KeyCode Attack_1 = KeyCode.Mouse0;
+		KeyCode Attack_2 = KeyCode.Mouse1;
+
+		if (Input.GetKeyDown(Attack_1))
+		{
+		CBulletManager.Inst.SpawnAttack_1( Attack_Pos.position, Attack_1_GameObject);
+        }
+
+		else if(Input.GetKeyDown(Attack_2))
+		{
+            CBulletManager.Inst.SpawnAttack_2(Attack_Pos.position, Attack_2_GameObject);
+        }
+       
+
+
+    }
 	// When this game object intersects a collider with 'is trigger' checked, 
 	// store a reference to that collider in a variable named 'other'..
 	void  OnTriggerEnter(Collider other) 
@@ -119,8 +156,9 @@ public class PlayerController : MonoBehaviour, IChange {
 	{
 		_PlayerCount += 1;
 	}
-	public virtual void OnChange()
-	{
 
-	}
+    public void OnChange()
+    {
+       
+    }
 }

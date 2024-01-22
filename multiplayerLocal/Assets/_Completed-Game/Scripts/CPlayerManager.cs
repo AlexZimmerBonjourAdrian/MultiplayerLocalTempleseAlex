@@ -74,7 +74,7 @@ public class CPlayerManager : MonoBehaviour
         
     }
 
-    public void Spawn(Vector2 Pos)
+    public void Spawn(Vector3 Pos)
     {
         
         if (_PlayerList.Count <= 2)
@@ -130,6 +130,12 @@ public class CPlayerManager : MonoBehaviour
         }
       
     }
-   
+
     
+    public virtual void AsignControll()
+    {
+
+    }
+
+
 }

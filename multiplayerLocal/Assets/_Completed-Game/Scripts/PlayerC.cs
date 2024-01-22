@@ -24,13 +24,17 @@ public class PlayerC : PlayerController
     protected override void Move()
     {
         base.Move();
+        rb.velocity = movement * speed;
+    }
+
+    protected override void EspecialHability()
+    {
+        base.EspecialHability();
+
     }
     public override void AsignControll()
     {
         base.AsignControll();
     }
-    public override void OnChange()
-    {
-
-    }
+  
 }
