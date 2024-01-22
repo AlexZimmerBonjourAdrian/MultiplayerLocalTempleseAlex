@@ -27,7 +27,7 @@ public class PlayerA : PlayerController
         base.SetCountText();
     }
     */
-    protected override void Move()
+    public override void Move()
     {
         base.Move();
         rb.AddForce(movement * speed);
@@ -38,7 +38,7 @@ public class PlayerA : PlayerController
         //Pensar en que hacer 
     }
 
-    protected override void EspecialHability()
+   public override void EspecialHability()
     {
         base.EspecialHability();
 

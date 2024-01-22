@@ -24,7 +24,7 @@ public class PlayerB : PlayerController
         base.SetCountText();
     }
     */
-    protected override void Move()
+   public override void Move()
     {
         base.Move();
         rb.velocity = movement * speed;
@@ -32,7 +32,7 @@ public class PlayerB : PlayerController
 
 
     }
-    protected override void EspecialHability()
+   public override void EspecialHability()
     {
         base.EspecialHability();
 

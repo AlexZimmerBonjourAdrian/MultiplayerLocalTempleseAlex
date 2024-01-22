@@ -15,4 +15,38 @@ public class CPlayer : MonoBehaviour
     {
         
     }
+
+   public void Move()
+    {
+        
+    }
+
+    public void Attack1()
+    {
+        
+    }
+
+    public void Attack2()
+    {
+        
+    }
+
+    public void Jump()
+    {
+
+    }
+
+    public void ChangeForm()
+    {
+
+    }
+
+    public void Interact()
+    {
+
+    }
+
+
+
 }
+

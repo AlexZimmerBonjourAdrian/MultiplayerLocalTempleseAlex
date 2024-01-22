@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 using System.Collections;
 using System;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour, IChange {
 	
@@ -25,9 +26,23 @@ public class PlayerController : MonoBehaviour, IChange {
     [SerializeField] protected Transform Attack_Pos;
 
     [SerializeField] protected float _ForceJump;
+	protected Vector2 moveVector; 
+	
+    public Action OnAsignateController;
+	// At the start of the game..
+	private InputAction _MoveAction;
+	private InputAction _JumpAction;
+	private InputAction _Attack_1Action;
+	private InputAction _Attack_2Action;
+	private InputAction _ChangeForms_Action;
+	private CInputSystemMultiplayer _defaultPlayerAction;
 
-	public Action OnAsignateController;
-    // At the start of the game..
+    public object MoveVector { get; private set; }
+
+    private void Awake()
+    {
+        _defaultPlayerAction = new CInputSystemMultiplayer();
+    }
     public virtual void Start ()
 	{
 		// Assign the Rigidbody component to our private rb variable
@@ -47,52 +62,80 @@ public class PlayerController : MonoBehaviour, IChange {
 	// Each physics step..
 	public virtual void FixedUpdate ()
 	{
-		// Set some local float variables equal to the value of our Horizontal and Vertical Inputs
+        // Set some local float variables equal to the value of our Horizontal and Vertical Inputs
 
-		Move();
-		// Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
-		
+        MoveVector = _MoveAction.ReadValue<Vector2>();
+        Debug.Log($"move: {MoveVector}");
+       
 
-		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
-		// multiplying it by 'speed' - our public player speed that appears in the inspector
+        Move();
+        // Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
+
+       
+		bool _Jump = _JumpAction.ReadValue<bool>();
+		bool _ChangeForm = _ChangeForms_Action.ReadValue<bool>();
+        //bool _Attack_1 = _Attack_1Action.ReadValue<bool>();
+        //      bool _Attack_2 = _Attack_2Action.ReadValue<bool>();
+        // Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
+        // multiplying it by 'speed' - our public player speed that appears in the inspector
+
+
+
 	
-	}
-	
-	protected virtual void Move()
+        
+
+    }
+
+	public virtual void Move()
 	{
-		float moveHorizontal;
-		float moveVertical;
-		//bool Jump;
-		/*
+        //float moveHorizontal;
+        //float moveVertical;
+        //bool Jump;
+        
 		switch (_PlayerCount)
 		{
+			case 0:
+				 Debug.Log("Player 1");
+                break;
+
 			case 1:
-				moveHorizontal = Input.GetAxis("Horizontal");
-				moveVertical = Input.GetAxis("Vertical");
-				movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-				rb.AddForce(movement * speed);
-				break;
+                Debug.Log("Player 2");
+                //moveHorizontal = Input.GetAxis("Horizontal");
+                //moveVertical = Input.GetAxis("Vertical");
+                //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+                //rb.AddForce(movement * speed);
+                break;
 			case 2:
-				moveHorizontal= Input.GetAxis("HorizontalPlayer2");
-				moveVertical=Input.GetAxis("VerticalPlayer2");
-				movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-				rb.AddForce(movement * speed);
-				break;
+                Debug.Log("Player 3");
+                //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
+                //moveVertical=Input.GetAxis("VerticalPlayer2");
+                //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+                //rb.AddForce(movement * speed);
+                break;
+
+			case 3:
+                Debug.Log("Player 4");
+                break;
 			default:
 				Debug.LogError("El control no se asigno");
 				break;
 		}
 			
-		float moveHorizontal = Input.GetAxis("Horizontal");
-		float moveVertical = Input.GetAxis("Vertical");
-		*/
-		moveHorizontal = Input.GetAxis("Horizontal");
-		moveVertical = Input.GetAxis("Vertical");
-		movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+		
+		
+  //      float moveHorizontal;
+  //      float moveVertical;
 
-        //Jump = Input.GetKeyDown('Jump');
 
-        if(Input.GetButtonDown("Jump"))
+  //      moveHorizontal = Input.GetAxis("Horizontal");
+		//moveVertical = Input.GetAxis("Vertical");
+
+		moveVector = _MoveAction.ReadValue<Vector2>();
+		movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+
+		//Jump = Input.GetKeyDown('Jump');
+
+		if (Input.GetButtonDown("Jump"))
         {
                   rb.AddForce(Vector3.up * _ForceJump,ForceMode.Impulse);
         }
@@ -101,7 +144,7 @@ public class PlayerController : MonoBehaviour, IChange {
 
     }
 
-    protected virtual void EspecialHability()
+    public virtual void EspecialHability()
 	{
 		KeyCode Attack_1 = KeyCode.Mouse0;
 		KeyCode Attack_2 = KeyCode.Mouse1;
@@ -156,6 +199,85 @@ public class PlayerController : MonoBehaviour, IChange {
 	{
 		_PlayerCount += 1;
 	}
+
+    private void OnEnable()
+    {
+    
+
+		_MoveAction = _defaultPlayerAction.Player.Move;
+       _MoveAction.Enable();
+
+        _JumpAction = _defaultPlayerAction.Player.Jump;
+		_JumpAction.Enable();
+
+        _ChangeForms_Action = _defaultPlayerAction.Player.ChangeForm;
+        _ChangeForms_Action.Enable();
+
+        _Attack_1Action = _defaultPlayerAction.Player.Attack1;
+        _Attack_1Action.Enable();
+
+		_Attack_2Action = _defaultPlayerAction.Player.Attack2;
+		_Attack_2Action.Enable();
+
+
+		_defaultPlayerAction.Player.Jump.performed += OnJump;
+        _defaultPlayerAction.Player.Move.performed += OnMove;
+        _defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
+        //_defaultPlayerAction.Player.Attack1.performed += OnAttack1;
+        //_defaultPlayerAction.Player.Attack2.performed += OnAttack2;
+
+    }
+
+    private void OnDisable()
+    {
+
+        _MoveAction.Disable();
+        _JumpAction.Disable();
+        _ChangeForms_Action.Disable();
+        _Attack_1Action.Disable();
+        _Attack_2Action.Disable();
+        //_defaultPlayerAction.Player.Horizontal.Disable();
+        //_defaultPlayerAction.Player.Vertical.Disable();
+        //_defaultPlayerAction.Player.Jump.Disable();
+        //_defaultPlayerAction.Player.ChangeForm.Disable();
+        //_defaultPlayerAction.Player.Attack1.Disable();
+        //_defaultPlayerAction.Player.Attack2.Disable();
+    }
+
+	
+
+	private void OnJump(InputAction.CallbackContext context)
+	{
+		Debug.Log("Jump");
+	}
+
+	private void OnMove(InputAction.CallbackContext context)
+	{
+
+
+       Vector2 MoveVector_P = _MoveAction.ReadValue<Vector2>();
+        Debug.Log($"move: {MoveVector_P}");
+    }
+    private void OnChangeForm(InputAction.CallbackContext context)
+    {
+		Debug.Log("ChangeForm");
+        bool changeForm;
+		changeForm = _ChangeForms_Action.ReadValue<bool>();
+    }
+  //  private void OnAttack1(InputAction.CallbackContext context)
+  //  {
+		//Debug.Log("Attack1");
+  //      bool Attack1;
+  //      Attack1 = _Attack_1Action.ReadValue<bool>();
+  //  }
+  //  private void OnAttack2(InputAction.CallbackContext context)
+  //  {
+		//Debug.Log("Attack2");
+  //      bool Attack2;
+  //      Attack2 = _Attack_2Action.ReadValue<bool>();
+  //  }
+
+
 
     public void OnChange()
     {

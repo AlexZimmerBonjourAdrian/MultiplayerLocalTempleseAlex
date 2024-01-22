@@ -21,13 +21,13 @@ public class PlayerC : PlayerController
         base.SetCountText();
     }
     */
-    protected override void Move()
+    public override void Move()
     {
         base.Move();
         rb.velocity = movement * speed;
     }
 
-    protected override void EspecialHability()
+    public override void EspecialHability()
     {
         base.EspecialHability();
 
