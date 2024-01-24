@@ -63,17 +63,18 @@ public class PlayerController : MonoBehaviour, IChange {
 	public virtual void FixedUpdate ()
 	{
         // Set some local float variables equal to the value of our Horizontal and Vertical Inputs
-
-        MoveVector = _MoveAction.ReadValue<Vector2>();
-        Debug.Log($"move: {MoveVector}");
-       
+        if(_PlayerCount == 0)
+        {
+            MoveVector = _MoveAction.ReadValue<Vector2>();
+            Debug.Log($"move: {MoveVector}");
+        }
 
         Move();
         // Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
 
        
-		bool _Jump = _JumpAction.ReadValue<bool>();
-		bool _ChangeForm = _ChangeForms_Action.ReadValue<bool>();
+		//bool _Jump = _JumpAction.ReadValue<bool>();
+		//bool _ChangeForm = _ChangeForms_Action.ReadValue<bool>();
         //bool _Attack_1 = _Attack_1Action.ReadValue<bool>();
         //      bool _Attack_2 = _Attack_2Action.ReadValue<bool>();
         // Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
@@ -95,43 +96,64 @@ public class PlayerController : MonoBehaviour, IChange {
 		switch (_PlayerCount)
 		{
 			case 0:
-				 Debug.Log("Player 1");
+				// Debug.Log("Player 1");
+                moveVector = _MoveAction.ReadValue<Vector2>();
+                movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
                 break;
 
-			case 1:
-                Debug.Log("Player 2");
-                //moveHorizontal = Input.GetAxis("Horizontal");
-                //moveVertical = Input.GetAxis("Vertical");
-                //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-                //rb.AddForce(movement * speed);
+            case 1:
+              
+                P2Controller();
+                //_MoveAction = _defaultPlayerAction.Player.Move;
+                //_MoveAction.Enable();
+
+                //_JumpAction = _defaultPlayerAction.Player.Jump;
+                //_JumpAction.Enable();
+
+                //_ChangeForms_Action = _defaultPlayerAction.Player.ChangeForm;
+                //_ChangeForms_Action.Enable();
+
+                //_Attack_1Action = _defaultPlayerAction.Player.Attack1;
+                //_Attack_1Action.Enable();
+
+                //_Attack_2Action = _defaultPlayerAction.Player.Attack2;
+                //_Attack_2Action.Enable();
+
+
+                //_defaultPlayerAction.Player.Jump.performed += OnJump;
+                //_defaultPlayerAction.Player.Move.performed += OnMove;
+                //_defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
                 break;
-			case 2:
-                Debug.Log("Player 3");
+            case 2:
+               // Debug.Log("Player 3");
+                P3Controller();
                 //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
                 //moveVertical=Input.GetAxis("VerticalPlayer2");
                 //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
                 //rb.AddForce(movement * speed);
                 break;
 
-			case 3:
-                Debug.Log("Player 4");
+            case 3:
+                P4Controller();
+               // Debug.Log("Player 4");
+
+
                 break;
-			default:
+            default:
 				Debug.LogError("El control no se asigno");
 				break;
 		}
-			
-		
-		
-  //      float moveHorizontal;
-  //      float moveVertical;
 
 
-  //      moveHorizontal = Input.GetAxis("Horizontal");
-		//moveVertical = Input.GetAxis("Vertical");
 
-		moveVector = _MoveAction.ReadValue<Vector2>();
-		movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+        //      float moveHorizontal;
+        //      float moveVertical;
+
+
+        //      moveHorizontal = Input.GetAxis("Horizontal");
+        //moveVertical = Input.GetAxis("Vertical");
+        //movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+      
 
 		//Jump = Input.GetKeyDown('Jump');
 
@@ -202,27 +224,77 @@ public class PlayerController : MonoBehaviour, IChange {
 
     private void OnEnable()
     {
-    
+        //Pulir
+        switch (_PlayerCount)
+        {
+            case 0:
+                Debug.Log("Player 1");
 
-		_MoveAction = _defaultPlayerAction.Player.Move;
-       _MoveAction.Enable();
+                _MoveAction = _defaultPlayerAction.Player.Move;
+                _MoveAction.Enable();
 
-        _JumpAction = _defaultPlayerAction.Player.Jump;
-		_JumpAction.Enable();
+                _JumpAction = _defaultPlayerAction.Player.Jump;
+                _JumpAction.Enable();
 
-        _ChangeForms_Action = _defaultPlayerAction.Player.ChangeForm;
-        _ChangeForms_Action.Enable();
+                _ChangeForms_Action = _defaultPlayerAction.Player.ChangeForm;
+                _ChangeForms_Action.Enable();
 
-        _Attack_1Action = _defaultPlayerAction.Player.Attack1;
-        _Attack_1Action.Enable();
+                _Attack_1Action = _defaultPlayerAction.Player.Attack1;
+                _Attack_1Action.Enable();
 
-		_Attack_2Action = _defaultPlayerAction.Player.Attack2;
-		_Attack_2Action.Enable();
+                _Attack_2Action = _defaultPlayerAction.Player.Attack2;
+                _Attack_2Action.Enable();
 
 
-		_defaultPlayerAction.Player.Jump.performed += OnJump;
-        _defaultPlayerAction.Player.Move.performed += OnMove;
-        _defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
+                _defaultPlayerAction.Player.Jump.performed += OnJump;
+                _defaultPlayerAction.Player.Move.performed += OnMove;
+                _defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
+                break;
+
+            case 1:
+                Debug.Log("Player 2");
+                P2Controller();
+                //_MoveAction = _defaultPlayerAction.Player.Move;
+                //_MoveAction.Enable();
+
+                //_JumpAction = _defaultPlayerAction.Player.Jump;
+                //_JumpAction.Enable();
+
+                //_ChangeForms_Action = _defaultPlayerAction.Player.ChangeForm;
+                //_ChangeForms_Action.Enable();
+
+                //_Attack_1Action = _defaultPlayerAction.Player.Attack1;
+                //_Attack_1Action.Enable();
+
+                //_Attack_2Action = _defaultPlayerAction.Player.Attack2;
+                //_Attack_2Action.Enable();
+
+
+                //_defaultPlayerAction.Player.Jump.performed += OnJump;
+                //_defaultPlayerAction.Player.Move.performed += OnMove;
+                //_defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
+                break;
+            case 2:
+                Debug.Log("Player 3");
+                P3Controller();
+                //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
+                //moveVertical=Input.GetAxis("VerticalPlayer2");
+                //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+                //rb.AddForce(movement * speed);
+                break;
+
+            case 3:
+                P4Controller();
+                Debug.Log("Player 4");
+
+
+                break;
+            default:
+                Debug.LogError("El control no se asigno");
+                break;
+        }
+
+
         //_defaultPlayerAction.Player.Attack1.performed += OnAttack1;
         //_defaultPlayerAction.Player.Attack2.performed += OnAttack2;
 
@@ -230,12 +302,16 @@ public class PlayerController : MonoBehaviour, IChange {
 
     private void OnDisable()
     {
+        if(_PlayerCount == 0)
+        {
 
-        _MoveAction.Disable();
-        _JumpAction.Disable();
-        _ChangeForms_Action.Disable();
-        _Attack_1Action.Disable();
-        _Attack_2Action.Disable();
+        
+            _MoveAction.Disable();
+            _JumpAction.Disable();
+            _ChangeForms_Action.Disable();
+            _Attack_1Action.Disable();
+            _Attack_2Action.Disable();
+        }
         //_defaultPlayerAction.Player.Horizontal.Disable();
         //_defaultPlayerAction.Player.Vertical.Disable();
         //_defaultPlayerAction.Player.Jump.Disable();
@@ -243,10 +319,52 @@ public class PlayerController : MonoBehaviour, IChange {
         //_defaultPlayerAction.Player.Attack1.Disable();
         //_defaultPlayerAction.Player.Attack2.Disable();
     }
+    public virtual void P1Controller()
+    {
 
+    }
 	
+    public virtual void P2Controller()
+    {
 
-	private void OnJump(InputAction.CallbackContext context)
+        float moveHorizontal;
+        float moveVertical;
+
+        Debug.Log("Player 2 Controller");
+        moveHorizontal = Input.GetAxisRaw("HorizontalP2");
+        Debug.Log("Horizontal: "+ moveHorizontal);
+        moveVertical = Input.GetAxis("VerticalP2");
+        Debug.Log("Horizontal: " + moveHorizontal);
+        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        
+    }
+    public virtual void P3Controller()
+    {
+
+        float moveHorizontal;
+        float moveVertical;
+
+        moveHorizontal = Input.GetAxis("HorizontalP3");
+        moveVertical = Input.GetAxis("VerticalP3");
+        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        
+    }
+    public virtual void P4Controller()
+    {
+
+        float moveHorizontal;
+        float moveVertical;
+
+
+        moveHorizontal = Input.GetAxis("HorizontalP4");
+        moveVertical = Input.GetAxis("VerticalP4");
+        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+      
+    }
+
+
+
+    private void OnJump(InputAction.CallbackContext context)
 	{
 		Debug.Log("Jump");
 	}
