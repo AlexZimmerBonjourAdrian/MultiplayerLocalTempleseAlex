@@ -1,0 +1,799 @@
+{
+    "name": "CInputSystemMultiplayer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "8c7f6435-471a-4c8a-8f1c-69425c42285f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "09e3c180-1975-4af9-9a69-28d0fa0a0e80",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack-1",
+                    "type": "Button",
+                    "id": "f53cd424-f437-4e6d-bff3-97251ce14716",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack-2",
+                    "type": "Button",
+                    "id": "2fef26a4-e811-4e36-b001-3736a7c65615",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "e5a59c55-dac3-41a7-9fe5-2752d3ffa122",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "4909adde-d3cf-4699-af4e-12ce2cea1ae1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeForm",
+                    "type": "Button",
+                    "id": "7dba58c2-058e-478b-8460-969623a903bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b5d1c26a-c583-4e75-a94a-2893c9a09fbf",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Attack-1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0dac849-2634-49e3-bf29-11ee95aefcec",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7175c5c-9d61-4384-8506-e0114e48a55c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Attack-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd2e93f5-1164-4c85-9856-6544962d61d5",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "ChangeForm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b767853b-46f9-44ff-a048-1389c20e6892",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "ChangeForm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "625b5438-55b5-4677-a3ec-de329789b376",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "ChangeForm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "554ad0eb-59d0-48f3-83cd-4fec486a6262",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "ChangeForm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d26bda98-985b-4a00-8f87-e7a7ab51d9f7",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Move",
+                    "id": "4ac648ba-8b86-4eca-9f77-bfa5e93db161",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "77e5b024-52dd-4703-b643-d1903317e3f6",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e58a436a-0a6d-4c4a-ad2f-d30feeee03c3",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "19a0c045-b93e-45e4-84e9-23061b435bee",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "4f81de05-a26c-4a07-8b35-6b4ff1bd15ee",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "MoveAlternative",
+                    "id": "7f63a884-0ae4-454e-9ee5-52aca842aec2",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "651d0c73-a491-476c-b572-b0a8b211ea74",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "665bc94a-db48-47d2-8eeb-523118b55267",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "2651699e-e653-4cd0-81f4-19fd7bc71665",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "4ee443be-0f54-4c67-8d84-bc6060d161f5",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Player1",
+            "id": "6b1feb08-11df-40f7-9463-b31c77ac71fe",
+            "actions": [
+                {
+                    "name": "Move2",
+                    "type": "Value",
+                    "id": "2bafd5de-5be6-4366-a09f-9a0bfbafdef5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack-1-2",
+                    "type": "Button",
+                    "id": "daf6fc6d-52ce-4e5f-a891-9f3cb9f1e281",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack-2-2",
+                    "type": "Button",
+                    "id": "ead3a620-097f-4db2-ae3a-f6151a6d6f81",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact-2",
+                    "type": "Button",
+                    "id": "67a89123-05ab-4ae7-b8f5-9ff43e7370bd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump-2",
+                    "type": "Button",
+                    "id": "e773ba66-2179-4320-8b74-286aca76e299",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeForm-2",
+                    "type": "Button",
+                    "id": "f480df7c-7057-4006-ab90-0aac530d2164",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dc389eee-7f9d-4990-9f8b-bd847e2175a9",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "Attack-1-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6810a04-1884-4853-8f46-da897b7850fa",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "Jump-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb511c29-dc64-4264-9a58-bebee7dd9b62",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "Attack-2-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c739aa2-81a4-48b1-bfc9-3236d8366c10",
+                    "path": "<XInputController>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "ChangeForm-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32bdd747-15c0-4cc6-b24e-881074e120bd",
+                    "path": "<XInputController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "ChangeForm-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7227439-95ed-4d87-a6f3-044a9cad03a5",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "ChangeForm-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cbacf0d-50ab-4ea7-acf4-9e31829c8691",
+                    "path": "<XInputController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "ChangeForm-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d646c355-9703-4001-b9d5-7b5a1bf7d396",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "Interact-2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4bd8882-74c2-465f-8ca5-d269efdf4c7a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 2",
+                    "action": "Move2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player2",
+            "id": "4166d646-772e-474b-a62b-dfc53ea91052",
+            "actions": [
+                {
+                    "name": "Move-3",
+                    "type": "Value",
+                    "id": "7ec8fda2-d213-4c8a-bd33-dd24629fa3e4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack-1-3",
+                    "type": "Button",
+                    "id": "38b88224-b029-4d15-a784-900162a3cd9a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack-2-3",
+                    "type": "Button",
+                    "id": "a95320a4-46fb-4b77-8775-ffc930d4fe32",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact-3",
+                    "type": "Button",
+                    "id": "e06f1799-4380-4f87-8441-865bad0a68c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump-2-3",
+                    "type": "Button",
+                    "id": "5160ddf8-d4d5-47b3-bc9d-2c051258ecaa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeForm-3",
+                    "type": "Button",
+                    "id": "96dbbf22-f3c2-4450-bdc1-d57e8290d1a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e0a7e1c7-1508-4e10-9ee2-71fbe07fec96",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "Attack-1-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c830e0b1-baf4-44db-a928-68b6997b9828",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "Jump-2-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f4adbe5-7cf0-452c-ae8c-547eafa8eaec",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "Attack-2-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22d59cf5-315c-4b3d-bd24-fbba8c71df62",
+                    "path": "<XInputController>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "ChangeForm-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "511821a1-4d26-49f4-8b2d-54e704af818e",
+                    "path": "<XInputController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "ChangeForm-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bc8aeea-60cc-4bcc-8b12-07140178b7cf",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "ChangeForm-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36bda4ec-213a-4833-a5fb-2f37dec2caa1",
+                    "path": "<XInputController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "ChangeForm-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "087a1f3b-09ad-43f8-abc3-c4593d41ed05",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "Interact-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85087052-a3f4-448b-b3ff-83d1e7b1d3b0",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 3",
+                    "action": "Move-3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player3",
+            "id": "ed34f8f5-b7a9-4ca0-bbe7-370df38d64b2",
+            "actions": [
+                {
+                    "name": "Move-4",
+                    "type": "Value",
+                    "id": "d4b12eba-19ae-44ee-a3c1-5d46759129c7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Attack-1-4",
+                    "type": "Button",
+                    "id": "e306f7fb-c826-4af0-a368-d425eb769724",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack-2-4",
+                    "type": "Button",
+                    "id": "319f956b-6017-4e3b-a82a-82dd3103c9a4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact-4",
+                    "type": "Button",
+                    "id": "0c7dfd54-b9ec-47e7-8a89-8d9e9658a688",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump-4",
+                    "type": "Button",
+                    "id": "a23da684-4a22-4334-be31-580cee874ea5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeForm-4",
+                    "type": "Button",
+                    "id": "80dea81c-95a8-442a-a09e-b71dd1df0b94",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d919dc5c-1f46-49e2-af64-0a4d19a01047",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "Attack-1-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f1a13ee-e2fc-4485-8605-b529446d34f1",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "Jump-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe54fff2-42c5-4c6b-8100-d01aa86ec2be",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "Attack-2-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f352154c-3ddf-43a5-a0c0-3fbe739fa70d",
+                    "path": "<XInputController>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "ChangeForm-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "21bfb329-f879-470a-abe0-c8a7bf141296",
+                    "path": "<XInputController>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "ChangeForm-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "047766a2-fe2c-4ed1-b570-1ba26a21281a",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "ChangeForm-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6cf9d5a1-bdfb-468b-b121-96c8820a8d1a",
+                    "path": "<XInputController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "ChangeForm-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c021d241-3e33-4ce1-81d0-94bd0d428e52",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "Interact-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dba5715b-7dd4-47f1-94e7-451d0f5d04ed",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Xbox Controller - Player 4",
+                    "action": "Move-4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC Controller Schema",
+            "bindingGroup": "PC Controller Schema",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 2",
+            "bindingGroup": "Xbox Controller - Player 2",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 3",
+            "bindingGroup": "Xbox Controller - Player 3",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 4",
+            "bindingGroup": "Xbox Controller - Player 4",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
