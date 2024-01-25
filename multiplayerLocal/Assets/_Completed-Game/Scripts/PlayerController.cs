@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour, IChange {
 
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
 	protected Rigidbody rb;
-	public int _PlayerCount=0;
-	protected int count;
+    public int _PlayerCount = 0;
+    protected int count;
 	protected int Control;
 	protected Vector3 movement;
     [SerializeField] protected GameObject Attack_1_GameObject;
@@ -58,6 +58,11 @@ public class PlayerController : MonoBehaviour, IChange {
 		//winText.text = "";
 	
 	}
+
+    public virtual void SetPlayerController(int PlayerCount)
+    {
+        _PlayerCount = PlayerCount;
+    }
 	
 	// Each physics step..
 	public virtual void FixedUpdate ()
@@ -66,7 +71,7 @@ public class PlayerController : MonoBehaviour, IChange {
         if(_PlayerCount == 0)
         {
             MoveVector = _MoveAction.ReadValue<Vector2>();
-            Debug.Log($"move: {MoveVector}");
+          //  Debug.Log($"move: {MoveVector}");
         }
 
         Move();
@@ -221,7 +226,7 @@ public class PlayerController : MonoBehaviour, IChange {
 	{
 		_PlayerCount += 1;
 	}
-
+   
     private void OnEnable()
     {
         //Pulir
@@ -330,11 +335,11 @@ public class PlayerController : MonoBehaviour, IChange {
         float moveHorizontal;
         float moveVertical;
 
-        Debug.Log("Player 2 Controller");
+       // Debug.Log("Player 2 Controller");
         moveHorizontal = Input.GetAxisRaw("HorizontalP2");
-        Debug.Log("Horizontal: "+ moveHorizontal);
+      //  Debug.Log("Horizontal: "+ moveHorizontal);
         moveVertical = Input.GetAxis("VerticalP2");
-        Debug.Log("Horizontal: " + moveHorizontal);
+       // Debug.Log("Horizontal: " + moveHorizontal);
         movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
         
     }
@@ -362,7 +367,10 @@ public class PlayerController : MonoBehaviour, IChange {
       
     }
 
-
+    public int GePlayerCount()
+    {
+        return _PlayerCount;
+    }
 
     private void OnJump(InputAction.CallbackContext context)
 	{
@@ -374,7 +382,7 @@ public class PlayerController : MonoBehaviour, IChange {
 
 
        Vector2 MoveVector_P = _MoveAction.ReadValue<Vector2>();
-        Debug.Log($"move: {MoveVector_P}");
+       // Debug.Log($"move: {MoveVector_P}");
     }
     private void OnChangeForm(InputAction.CallbackContext context)
     {

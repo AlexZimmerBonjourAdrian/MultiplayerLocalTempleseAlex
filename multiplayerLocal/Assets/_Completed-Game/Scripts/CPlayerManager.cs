@@ -16,6 +16,7 @@ public class CPlayerManager : MonoBehaviour
     [SerializeField] private GameObject[] _AssetManager;
     private GameObject _obj;
     private Transform _serchTransform;
+    
 
     public static CPlayerManager Inst
     {
@@ -83,9 +84,18 @@ public class CPlayerManager : MonoBehaviour
             
             GameObject obj = (GameObject)Instantiate(_AssetManager[0], Pos, Quaternion.identity);
             PlayerController newPlayer = obj.GetComponent<PlayerA>();
-           // newPlayer.AsignControll();
+            //Debug.Log(newPlayer.GePlayerCount());
+            newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
+            CGlobalValue.Inst.AsignControll();
+
+
+
+
+            // newPlayer.AsignControll();
+
             _PlayerList.Add(newPlayer);
             //_ListObject.Add(obj);
+
             _obj = obj;
             
         }

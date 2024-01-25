@@ -79,6 +79,7 @@
     <Compile Include="Assets\_Completed-Game\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_2.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CLaserAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CGlobalValue.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CFireAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CMeeleAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_3.cs" />
