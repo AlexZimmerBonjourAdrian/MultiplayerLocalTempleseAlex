@@ -50,7 +50,7 @@ public class CPlayer_2 : PlayerController
     {
         base.Move();
         rb.AddForce(movement * speed);
-        _rigidbodyA.constraints = RigidbodyConstraints.None;
+        _rigidbodyA.constraints = RigidbodyConstraints.FreezeRotation;
 
 
         //Dar habilidades especiales

@@ -29,6 +29,7 @@ public class CPlayer_3 : PlayerController
     {
 
         ControllerAnimation();
+      
     }
     /*
     public override void SetCountText()
@@ -39,10 +40,10 @@ public class CPlayer_3 : PlayerController
     public override void Move()
     {
         base.Move();
-       // rb.AddForce(movement * speed);
-        _rigidbodyA.constraints = RigidbodyConstraints.None;
-
-
+        // rb.AddForce(movement * speed);
+        // _rigidbodyA.constraints = RigidbodyConstraints.None;
+        P3Controller();
+        //P3Controller();
         //Dar habilidades especiales
         //Pensar en que hacer 
     }

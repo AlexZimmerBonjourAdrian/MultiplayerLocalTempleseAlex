@@ -352,7 +352,8 @@ public class PlayerController : MonoBehaviour, IChange {
         moveHorizontal = Input.GetAxis("HorizontalP3");
         moveVertical = Input.GetAxis("VerticalP3");
         movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        
+       
+
     }
     public virtual void P4Controller()
     {

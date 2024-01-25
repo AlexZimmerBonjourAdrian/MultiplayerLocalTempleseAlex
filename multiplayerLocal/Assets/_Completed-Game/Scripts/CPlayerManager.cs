@@ -81,23 +81,81 @@ public class CPlayerManager : MonoBehaviour
         
         if (_PlayerList.Count <= 2)
         {
-            
-            GameObject obj = (GameObject)Instantiate(_AssetManager[0], Pos, Quaternion.identity);
-            PlayerController newPlayer = obj.GetComponent<PlayerA>();
-            //Debug.Log(newPlayer.GePlayerCount());
-            newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
-            CGlobalValue.Inst.AsignControll();
+           
+
+            if(CGlobalValue.Inst.GetPlayerController() == 0)
+            {
+                GameObject obj = (GameObject)Instantiate(_AssetManager[0], Pos, Quaternion.identity);
+                PlayerController newPlayer = obj.GetComponent<CPlayer_1>();
+                //Debug.Log(newPlayer.GePlayerCount());
+                newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
+                CGlobalValue.Inst.AsignControll();
 
 
 
 
-            // newPlayer.AsignControll();
+                // newPlayer.AsignControll();
 
-            _PlayerList.Add(newPlayer);
-            //_ListObject.Add(obj);
+                _PlayerList.Add(newPlayer);
+                //_ListObject.Add(obj);
 
-            _obj = obj;
-            
+                _obj = obj;
+            }  
+           else if(CGlobalValue.Inst.GetPlayerController() == 1)
+            {
+                GameObject obj = (GameObject)Instantiate(_AssetManager[1], Pos, Quaternion.identity);
+                PlayerController newPlayer = obj.GetComponent<CPlayer_2>();
+                //Debug.Log(newPlayer.GePlayerCount());
+                newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
+                CGlobalValue.Inst.AsignControll();
+
+
+
+
+                // newPlayer.AsignControll();
+
+                _PlayerList.Add(newPlayer);
+                //_ListObject.Add(obj);
+
+                _obj = obj;
+            }
+            else if (CGlobalValue.Inst.GetPlayerController() == 2)
+            {
+                GameObject obj = (GameObject)Instantiate(_AssetManager[2], Pos, Quaternion.identity);
+                PlayerController newPlayer = obj.GetComponent<CPlayer_3>();
+                //Debug.Log(newPlayer.GePlayerCount());
+                newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
+                CGlobalValue.Inst.AsignControll();
+
+
+
+
+                // newPlayer.AsignControll();
+
+                _PlayerList.Add(newPlayer);
+                //_ListObject.Add(obj);
+
+                _obj = obj;
+            }
+            //if (CGlobalValue.Inst.GetPlayerController() == 3)
+            //{
+            //    GameObject obj = (GameObject)Instantiate(_AssetManager[3], Pos, Quaternion.identity);
+            //    PlayerController newPlayer = obj.GetComponent<CPlayer_4>();
+            //    //Debug.Log(newPlayer.GePlayerCount());
+            //    newPlayer._PlayerCount = CGlobalValue.Inst.GetPlayerController();
+            //    CGlobalValue.Inst.AsignControll();
+
+
+
+
+            //    // newPlayer.AsignControll();
+
+            //    _PlayerList.Add(newPlayer);
+            //    //_ListObject.Add(obj);
+
+            //    _obj = obj;
+            //}
+
         }
     }
     public void changedCharacter(int count,int NumPlayer)
