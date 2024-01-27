@@ -376,6 +376,16 @@ public class PlayerController : MonoBehaviour, IChange {
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
         }
+
+        if(Input.GetButtonDown("P2SoftPunch"))
+        {
+            Debug.Log("Entra en Soft Punch");
+        }
+        else if (Input.GetButtonDown("P2HardPunch"))
+        {
+            Debug.Log("Entra en Hard Punch");
+        }
+
     }
     public virtual void P3Controller()
     {
