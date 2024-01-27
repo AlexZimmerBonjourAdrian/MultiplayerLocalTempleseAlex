@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour, IChange {
 	
@@ -36,7 +37,10 @@ public class PlayerController : MonoBehaviour, IChange {
 	private InputAction _Attack_2Action;
 	private InputAction _ChangeForms_Action;
 	private CInputSystemMultiplayer _defaultPlayerAction;
-
+    [SerializeField] private float smoothTime = 0.05f;
+    [SerializeField] private float _currentVelocity;
+    
+    private Vector3 _direction;
     public object MoveVector { get; private set; }
 
     private void Awake()
@@ -104,6 +108,27 @@ public class PlayerController : MonoBehaviour, IChange {
 				// Debug.Log("Player 1");
                 moveVector = _MoveAction.ReadValue<Vector2>();
                 movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+                var movementDirection = new Vector3(moveVector.x, 0.0f, moveVector.y);
+                movementDirection.Normalize();
+                //Vector3 movementDirection = new Vector3(movement.x, 0, movement.y);
+                //transform.Translate(movement * speed * Time.deltaTime, Space.World);
+
+                //if (movementDirection != Vector3.zero)
+                //{
+
+              
+                // Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up); ;
+                //  transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, speed);
+                
+                //}
+                //Vector3 movementDirection = new Vector3(movement.x, 0, movement.y);
+                //movementDirection.Normalize();
+
+                //if (movementDirection != Vector3.zero)
+                //{
+                //    Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+                //    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, 20 * Time.deltaTime);
+                //}
                 break;
 
             case 1:
@@ -341,7 +366,14 @@ public class PlayerController : MonoBehaviour, IChange {
         moveVertical = Input.GetAxis("VerticalP2");
        // Debug.Log("Horizontal: " + moveHorizontal);
         movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        
+        Vector3 movementDirection = new Vector3(movement.x, 0.0f, movement.z);
+        movementDirection.Normalize();
+
+        if(movementDirection != Vector3.zero)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation , speed);
+        }
     }
     public virtual void P3Controller()
     {
