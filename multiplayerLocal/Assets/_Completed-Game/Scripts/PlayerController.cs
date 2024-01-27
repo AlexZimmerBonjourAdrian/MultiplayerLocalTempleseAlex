@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour, IChange {
 	
 	// Create public variables for player speed, and for the Text UI game objects
 	[SerializeField] protected  float speed;
-	protected Text countText;
+    [SerializeField] protected float _rotationspeed;
+    protected Text countText;
 	protected Text winText;
 
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
@@ -42,7 +43,7 @@ public class PlayerController : MonoBehaviour, IChange {
     
     private Vector3 _direction;
     public object MoveVector { get; private set; }
-
+    public Vector3 movementDirection;
     private void Awake()
     {
         _defaultPlayerAction = new CInputSystemMultiplayer();
@@ -366,13 +367,14 @@ public class PlayerController : MonoBehaviour, IChange {
         moveVertical = Input.GetAxis("VerticalP2");
        // Debug.Log("Horizontal: " + moveHorizontal);
         movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        Vector3 movementDirection = new Vector3(movement.x, 0.0f, movement.z);
+        movement.Normalize();
+        var movementDirection = new Vector3(movement.x, 0.0f, movement.z);
         movementDirection.Normalize();
 
         if(movementDirection != Vector3.zero)
         {
             Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation , speed);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
         }
     }
     public virtual void P3Controller()

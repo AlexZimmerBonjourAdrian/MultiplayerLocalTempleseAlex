@@ -31,7 +31,7 @@ public class CPlayer_2 : PlayerController
     public void Update()
     {
 
-        ControllerAnimation();
+       // ControllerAnimation();
     }
 
     // Update is called once per frame
@@ -50,7 +50,7 @@ public class CPlayer_2 : PlayerController
     {
         base.Move();
         rb.AddForce(movement * speed);
-        _rigidbodyA.constraints = RigidbodyConstraints.FreezeRotation;
+       // _rigidbodyA.constraints = RigidbodyConstraints.FreezeRotation;
 
 
         //Dar habilidades especiales
@@ -75,39 +75,74 @@ public class CPlayer_2 : PlayerController
     }
     public void ControllerAnimation()
     {
-        if (Input.GetKey(KeyCode.V))
-        {
-            AnimationSpeed = 1;
-            animatorController.SetFloat("Speed", AnimationSpeed);
-        }
-        else
-        {
+       
+            animatorController.SetFloat("Speed", movement.magnitude);
+        
+    
             if (AnimationSpeed > 0)
             {
                 AnimationSpeed -= 0.10f;
-                animatorController.SetFloat("Speed", AnimationSpeed);
+                animatorController.SetFloat("Speed", movement.magnitude);
             }
               
             else if (AnimationSpeed <= 0)
             {
                 AnimationSpeed = 0;
-                animatorController.SetFloat("Speed", AnimationSpeed);
+                animatorController.SetFloat("Speed", movement.magnitude);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+
+                ISjumpAnimation = true;
+                animatorController.SetBool("IsJump", ISjumpAnimation);
+            }
+            else if (Input.GetKeyDown(KeyCode.G))
+            {
+                ISjumpAnimation = false;
+                animatorController.SetBool("IsJump", ISjumpAnimation);
+
             }
 
-
-        }
-        if(Input.GetKeyDown(KeyCode.C)) 
-        {
-            
-           ISjumpAnimation = true;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-        }
-        else if(Input.GetKeyDown(KeyCode.G))
-        {
-            ISjumpAnimation = false;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-
-        }
     }
 
 }
+
+    //public void ControllerAnimationTest()
+    //{
+    //    if (Input.GetKey(KeyCode.V))
+    //    {
+    //        AnimationSpeed = 1;
+    //        animatorController.SetFloat("Speed", AnimationSpeed);
+    //    }
+    //    else
+    //    {
+    //        if (AnimationSpeed > 0)
+    //        {
+    //            AnimationSpeed -= 0.10f;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
+
+    //        else if (AnimationSpeed <= 0)
+    //        {
+    //            AnimationSpeed = 0;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
+
+
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //    {
+
+    //        ISjumpAnimation = true;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        ISjumpAnimation = false;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+
+    //    }
+    //}
+
+
