@@ -68,8 +68,6 @@
     <Compile Include="Assets\_Completed-Game\Scripts\CLevelState.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_4.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CPlayerManager.cs" />
-    <Compile Include="Assets\_Completed-Game\Scripts\IChange.cs" />
-    <Compile Include="Assets\CTestPunch.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerC.cs" />
     <Compile Include="Assets\_Completed-Game\InputAction\CInputSystemMultiplayer.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Rotator.cs" />
@@ -77,10 +75,14 @@
     <Compile Include="Assets\_Completed-Game\Scripts\CPlayer.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerA.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Interface\IChange.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CTestPunch.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_2.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Interface\IAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CLaserAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CGlobalValue.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CTestEnemy.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CFireAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Attack\CMeeleAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_3.cs" />

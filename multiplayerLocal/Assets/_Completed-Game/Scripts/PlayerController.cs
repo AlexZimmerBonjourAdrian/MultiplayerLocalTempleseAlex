@@ -8,7 +8,7 @@ using System;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
-public class PlayerController : MonoBehaviour, IChange {
+public class PlayerController : MonoBehaviour, IChange, IAttack {
 	
 	// Create public variables for player speed, and for the Text UI game objects
 	[SerializeField] protected  float speed;
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour, IChange {
 	protected Vector3 movement;
     [SerializeField] protected GameObject Attack_1_GameObject;
     [SerializeField] protected GameObject Attack_2_GameObject;
-
+    [SerializeField] protected GameObject Attack_GameObject;
     [SerializeField] protected Transform Attack_Pos;
 
     [SerializeField] protected float _ForceJump;
@@ -379,11 +379,24 @@ public class PlayerController : MonoBehaviour, IChange {
 
         if(Input.GetButtonDown("P2SoftPunch"))
         {
-            Debug.Log("Entra en Soft Punch");
+            //Debug.Log("Entra en Soft Punch");
+             Attack_GameObject.SetActive(true);
+            Debug.Log(Attack_GameObject.activeSelf);
         }
-        else if (Input.GetButtonDown("P2HardPunch"))
+        else if(Input.GetButtonUp("P2SoftPunch"))
         {
-            Debug.Log("Entra en Hard Punch");
+            Attack_GameObject.SetActive(false);
+            Debug.Log(Attack_GameObject.activeSelf);
+        }
+        if (Input.GetButtonDown("P2HardPunch"))
+        {
+            // Debug.Log("Entra en Hard Punch");
+            Attack_GameObject.SetActive(true);
+        }
+        else if (Input.GetButtonUp("P2HardPunch"))
+        {
+            // Debug.Log("Entra en Hard Punch");
+            Attack_GameObject.SetActive(false);
         }
 
     }
@@ -450,8 +463,13 @@ public class PlayerController : MonoBehaviour, IChange {
 
 
 
-    public void OnChange()
+    public virtual void OnChange()
     {
        
+    }
+
+    public void OnAttack()
+    {
+        throw new NotImplementedException();
     }
 }

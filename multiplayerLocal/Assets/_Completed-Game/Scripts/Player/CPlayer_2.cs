@@ -8,11 +8,14 @@ public class CPlayer_2 : PlayerController
     private Animator animatorController;
     public float AnimationSpeed = 0;
     public bool ISjumpAnimation = false;
+    
     public CPlayer_2()
     {
 
     }
     // Start is called before the first frame update
+
+  
     public override void Start()
     {
         base.Start();
