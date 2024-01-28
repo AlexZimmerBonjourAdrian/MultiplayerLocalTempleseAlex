@@ -15,6 +15,7 @@ public class CTestPunch : MonoBehaviour
         {
             Debug.Log("Punch");
             other.gameObject.GetComponent<CTestEnemy>().AnimationDamageTest();
+            
         }
     }
     

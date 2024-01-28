@@ -7,11 +7,12 @@ using System.Collections;
 using System;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour, IChange, IAttack {
-	
-	// Create public variables for player speed, and for the Text UI game objects
-	[SerializeField] protected  float speed;
+    [Header("Movement")]
+    // Create public variables for player speed, and for the Text UI game objects
+    [SerializeField] protected  float speed;
     [SerializeField] protected float _rotationspeed;
     protected Text countText;
 	protected Text winText;
@@ -44,6 +45,16 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
     private Vector3 _direction;
     public object MoveVector { get; private set; }
     public Vector3 movementDirection;
+    
+    [Header("Combo System")]
+    
+    [SerializeField] private Transform controladorGolpe;
+    [SerializeField] private Vector3 _Box;
+    [SerializeField] private float DamagePunch;
+
+
+    
+
     private void Awake()
     {
         _defaultPlayerAction = new CInputSystemMultiplayer();
@@ -55,6 +66,8 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
 
 		// Set the count to zero 
 		count = 0;
+
+        _Box = new Vector3(1, 1, 1);
 
 		// Run the SetCountText function to update the UI (see below)
 		//SetCountText ();
@@ -259,7 +272,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         switch (_PlayerCount)
         {
             case 0:
-                Debug.Log("Player 1");
+                //Debug.Log("Player 1");
 
                 _MoveAction = _defaultPlayerAction.Player.Move;
                 _MoveAction.Enable();
@@ -283,7 +296,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 break;
 
             case 1:
-                Debug.Log("Player 2");
+              //  Debug.Log("Player 2");
                 P2Controller();
                 //_MoveAction = _defaultPlayerAction.Player.Move;
                 //_MoveAction.Enable();
@@ -306,7 +319,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 //_defaultPlayerAction.Player.ChangeForm.performed += OnChangeForm;
                 break;
             case 2:
-                Debug.Log("Player 3");
+              //  Debug.Log("Player 3");
                 P3Controller();
                 //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
                 //moveVertical=Input.GetAxis("VerticalPlayer2");
@@ -316,12 +329,12 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
 
             case 3:
                 P4Controller();
-                Debug.Log("Player 4");
+              //  Debug.Log("Player 4");
 
 
                 break;
             default:
-                Debug.LogError("El control no se asigno");
+             //   Debug.LogError("El control no se asigno");
                 break;
         }
 
@@ -381,25 +394,38 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         {
             //Debug.Log("Entra en Soft Punch");
              Attack_GameObject.SetActive(true);
-            Debug.Log(Attack_GameObject.activeSelf);
+            //Debug.Log(Attack_GameObject.activeSelf);
+            Golpe();
         }
-        else if(Input.GetButtonUp("P2SoftPunch"))
-        {
-            Attack_GameObject.SetActive(false);
-            Debug.Log(Attack_GameObject.activeSelf);
-        }
-        if (Input.GetButtonDown("P2HardPunch"))
+       
+        else if (Input.GetButtonDown("P2HardPunch"))
         {
             // Debug.Log("Entra en Hard Punch");
             Attack_GameObject.SetActive(true);
+            Golpe();
         }
-        else if (Input.GetButtonUp("P2HardPunch"))
+        
+        else
         {
-            // Debug.Log("Entra en Hard Punch");
-            Attack_GameObject.SetActive(false);
+            //Attack_GameObject.SetActive(false);
+            Invoke("DesactiveHit", 5f);
         }
+      
+        //else if (Input.GetButtonUp("P2HardPunch"))
+        //{
+        //    // Debug.Log("Entra en Hard Punch");
+        //    Attack_GameObject.SetActive(false);
+        //}
 
     }
+    public void DesactiveHit()
+    {
+        if (Attack_GameObject.activeSelf==true)
+        { 
+            Attack_GameObject.SetActive(false);
+        }
+    }
+
     public virtual void P3Controller()
     {
 
@@ -444,7 +470,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
     }
     private void OnChangeForm(InputAction.CallbackContext context)
     {
-		Debug.Log("ChangeForm");
+		//Debug.Log("ChangeForm");
         bool changeForm;
 		changeForm = _ChangeForms_Action.ReadValue<bool>();
     }
@@ -468,6 +494,18 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
        
     }
 
+    public virtual void Golpe() 
+    {
+        Collider[] objetos = Physics.OverlapBox(controladorGolpe.position, _Box, controladorGolpe.rotation);
+        
+        foreach(Collider collisionador in objetos)
+        {
+            if(collisionador.CompareTag("Player") && collisionador.gameObject != gameObject)
+            {
+                collisionador.transform.GetComponent<CTestEnemy>().TakeDamage(DamagePunch);
+            }
+        }
+    }
     public void OnAttack()
     {
         throw new NotImplementedException();

@@ -6,6 +6,7 @@ public class CTestEnemy : MonoBehaviour
 {
     // Start is called before the first frame update
     public Animator _Anim;
+    [SerializeField] public float _Life = 100f;
     void Start()
     {
 
@@ -14,6 +15,10 @@ public class CTestEnemy : MonoBehaviour
 
     // Update is called once per frame
  
+    public void TakeDamage(float Life)
+    {
+        _Life -= Life;
+    }
     public void AnimationController()
     {
         if(Input.GetKeyDown(KeyCode.V))
@@ -21,6 +26,7 @@ public class CTestEnemy : MonoBehaviour
             _Anim.SetBool("IsHit", false);
         }
     }
+
 
     public void Update()
     {
