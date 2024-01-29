@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
     [SerializeField] private Vector3 _Box;
     [SerializeField] private float DamagePunch;
 
-
+    public ComboInput _comboInput;
     
 
     private void Awake()

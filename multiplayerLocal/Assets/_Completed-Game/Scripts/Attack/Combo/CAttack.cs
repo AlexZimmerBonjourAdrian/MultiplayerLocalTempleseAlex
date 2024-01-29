@@ -12,4 +12,18 @@ public class CAttack : ScriptableObject
     public int ControlCharacter;
     public float damage;
     public AnimationClip animation;
+    public CAttack NextAtack;
+    public float DelayNextAttack;
+
+    // Método para establecer el siguiente ataque
+    public void SetNextAttack(CAttack nextAttack)
+    {
+        NextAtack = nextAttack;
+    }
+
+    // Método para obtener el siguiente ataque
+    public CAttack GetNextAttack()
+    {
+        return NextAtack;
+    }
 }

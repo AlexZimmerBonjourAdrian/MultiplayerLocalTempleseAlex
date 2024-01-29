@@ -6,17 +6,24 @@ public class CPlayer_2 : PlayerController
 {
     public Rigidbody _rigidbodyA;
     private Animator animatorController;
+
     [Header("Test Attributes")]
     public float AnimationSpeed = 0;
     public bool ISjumpAnimation = false;
     public bool IsPunchAnimation = false;
 
-    
-    public int [] ListAttackListEnum = {(int)Eplayer2Attacks.Punch_Up, (int)Eplayer2Attacks.Down_Punch, (int)Eplayer2Attacks.Kick_Single, (int)Eplayer2Attacks.Doble_Kick, (int)Eplayer2Attacks.Final_Smash };
-    public List<List<CAttack>> ChainAttack;
-    public List<CAttack> AttackList = new List<CAttack>();
-    public List<CAttack> AttackTempList= new List<CAttack>();
-    
+    //TempDebug
+    //public int [] ListAttackListEnum = {(int)Eplayer2Attacks.Punch_Up, (int)Eplayer2Attacks.Down_Punch, (int)Eplayer2Attacks.Kick_Single, (int)Eplayer2Attacks.Doble_Kick, (int)Eplayer2Attacks.Final_Smash };
+    [Header("Test List")]
+    //public List<List<CAttack>> ChainAttack;
+
+
+    [SerializeField] public List<CAttack> _attackList;
+    [SerializeField] public List<CAttack> _attackTempList= new List<CAttack>();
+
+    [SerializeField] private List<CComboAttack> _comboList;
+    [SerializeField] private List<CComboAttack> _comboTempList = new List<CComboAttack>();
+
     
     public CPlayer_2()
     {
@@ -30,7 +37,10 @@ public class CPlayer_2 : PlayerController
         base.Start();
         _rigidbodyA = GetComponent<Rigidbody>();
         animatorController = GetComponent<Animator>();
+        //_comboInput.GetComponent<ComboInput>();
         animatorController.Play("Idle");
+        //_comboInput.LoadComboResources();
+
 
     }
 
@@ -40,11 +50,11 @@ public class CPlayer_2 : PlayerController
     // Start is called before the first frame update
 
     // Start is called before the first frame update
-    public void Update()
-    {
+    //public void Update()
+    //{
 
-       // ControllerAnimation();
-    }
+    //   // ControllerAnimation();
+    //}
 
     // Update is called once per frame
     public override void FixedUpdate()
@@ -164,7 +174,8 @@ public class CPlayer_2 : PlayerController
         else if(Input.GetKeyDown(KeyCode.Mouse0))
         {
            IsPunchAnimation = true;
-            animatorController.SetBool("IsPunch", IsPunchAnimation);
+           animatorController.SetBool("IsPunch", IsPunchAnimation);
+           
         }
 
         else if(Input.GetKeyUp(KeyCode.Mouse0))

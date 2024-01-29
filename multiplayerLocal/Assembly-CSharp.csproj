@@ -73,6 +73,7 @@
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerC.cs" />
     <Compile Include="Assets\_Completed-Game\InputAction\CInputSystemMultiplayer.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Rotator.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\Combo\CComboAttack.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\Player\Forms\CForm_Distance.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\CPlayer.cs" />
     <Compile Include="Assets\_Completed-Game\Scripts\PlayerController.cs" />
