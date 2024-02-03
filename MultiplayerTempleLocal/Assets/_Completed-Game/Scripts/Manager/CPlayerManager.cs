@@ -59,15 +59,15 @@ public class CPlayerManager : MonoBehaviour
                 _ListObject.RemoveAt(i);
             }
         }
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             changedCharacter(1, 0);
         }
-        else if(Input.GetKeyDown(KeyCode.Keypad2))
+        else if(Input.GetKeyDown(KeyCode.Alpha2))
         {
             changedCharacter(2, 0);
         }
-        else if (Input.GetKeyDown(KeyCode.Keypad3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             changedCharacter(3, 0);
         }
