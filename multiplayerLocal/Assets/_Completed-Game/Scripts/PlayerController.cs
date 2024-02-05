@@ -390,32 +390,32 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
             transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
         }
 
-        if(Input.GetButtonDown("P2SoftPunch"))
-        {
-            //Debug.Log("Entra en Soft Punch");
-             Attack_GameObject.SetActive(true);
-            //Debug.Log(Attack_GameObject.activeSelf);
-            Golpe();
-        }
+        //if(Input.GetButtonDown("P2SoftPunch"))
+        //{
+        //    //Debug.Log("Entra en Soft Punch");
+        //     Attack_GameObject.SetActive(true);
+        //    //Debug.Log(Attack_GameObject.activeSelf);
+        //    Golpe();
+        //}
        
-        else if (Input.GetButtonDown("P2HardPunch"))
-        {
-            // Debug.Log("Entra en Hard Punch");
-            Attack_GameObject.SetActive(true);
-            Golpe();
-        }
-        
-        else
-        {
-            //Attack_GameObject.SetActive(false);
-            Invoke("DesactiveHit", 5f);
-        }
-      
-        //else if (Input.GetButtonUp("P2HardPunch"))
+        //else if (Input.GetButtonDown("P2HardPunch"))
         //{
         //    // Debug.Log("Entra en Hard Punch");
-        //    Attack_GameObject.SetActive(false);
+        //    Attack_GameObject.SetActive(true);
+        //    Golpe();
         //}
+        
+        //else
+        //{
+        //    //Attack_GameObject.SetActive(false);
+        //    Invoke("DesactiveHit", 5f);
+        //}
+      
+        ////else if (Input.GetButtonUp("P2HardPunch"))
+        ////{
+        ////    // Debug.Log("Entra en Hard Punch");
+        ////    Attack_GameObject.SetActive(false);
+        ////}
 
     }
     public void DesactiveHit()

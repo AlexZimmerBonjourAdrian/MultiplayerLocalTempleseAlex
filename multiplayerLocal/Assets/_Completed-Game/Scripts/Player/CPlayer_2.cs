@@ -23,7 +23,7 @@ public class CPlayer_2 : PlayerController
 
     [SerializeField] private List<CComboAttack> _comboList;
     [SerializeField] private List<CComboAttack> _comboTempList = new List<CComboAttack>();
-
+    [SerializeField] private bool isTestAnimation = false;
     
     public CPlayer_2()
     {
@@ -60,7 +60,15 @@ public class CPlayer_2 : PlayerController
     public override void FixedUpdate()
     {
         base.FixedUpdate();
-        ControllerAnimation();
+
+        if(isTestAnimation == true)
+        {
+            ControllerAnimationTest();
+        }
+        else
+        {
+            ControllerAnimation();
+        }
     }
     /*
     public override void SetCountText()
@@ -68,16 +76,16 @@ public class CPlayer_2 : PlayerController
         base.SetCountText();
     }
     */
-    public override void Move()
-    {
-        base.Move();
-        rb.AddForce(movement * speed);
-       // _rigidbodyA.constraints = RigidbodyConstraints.FreezeRotation;
+    //public override void Move()
+    //{
+    //    base.Move();
+    //    //rb.AddForce(movement * speed);
+    //   // _rigidbodyA.constraints = RigidbodyConstraints.FreezeRotation;
 
 
-        //Dar habilidades especiales
-        //Pensar en que hacer 
-    }
+    //    //Dar habilidades especiales
+    //    //Pensar en que hacer 
+    //}
 
     
 
@@ -97,45 +105,45 @@ public class CPlayer_2 : PlayerController
         //_rigidbodyA.AddForce(movement * speed);
         _rigidbodyA.velocity = (movement * speed);
     }
-    //public void ControllerAnimation()
-    //{
+    public void ControllerAnimation()
+    {
 
-    //        animatorController.SetFloat("Speed", movement.magnitude);
+        animatorController.SetFloat("Speed", movement.magnitude);
 
 
-    //        if (AnimationSpeed > 0)
-    //        {
-    //            AnimationSpeed -= 0.10f;
-    //            animatorController.SetFloat("Speed", movement.magnitude);
-    //        }
+        if (AnimationSpeed > 0)
+        {
+            AnimationSpeed -= 0.10f;
+            animatorController.SetFloat("Speed", movement.magnitude);
+        }
 
-    //        else if (AnimationSpeed <= 0)
-    //        {
-    //            AnimationSpeed = 0;
-    //            animatorController.SetFloat("Speed", movement.magnitude);
-    //        }
+        else if (AnimationSpeed <= 0)
+        {
+            AnimationSpeed = 0;
+            animatorController.SetFloat("Speed", movement.magnitude);
+        }
 
-    //        if (Input.GetKeyDown(KeyCode.C))
-    //        {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
 
-    //            ISjumpAnimation = true;
-    //            animatorController.SetBool("IsJump", ISjumpAnimation);
-    //        }
-    //        else if (Input.GetKeyDown(KeyCode.G))
-    //        {
-    //            ISjumpAnimation = false;
-    //            animatorController.SetBool("IsJump", ISjumpAnimation);
+            ISjumpAnimation = true;
+            animatorController.SetBool("IsJump", ISjumpAnimation);
+        }
+        else if (Input.GetKeyDown(KeyCode.G))
+        {
+            ISjumpAnimation = false;
+            animatorController.SetBool("IsJump", ISjumpAnimation);
 
-    //        }
+        }
 
-    //}
+    }
 
     //public void Atacar(GameObject enemigo)
     //{
     //    GetComponent<Animation>().Play(animacion.name);
     //}
 
-    public void ControllerAnimation()
+    public void ControllerAnimationTest()
     {
         if (Input.GetKey(KeyCode.V))
         {
