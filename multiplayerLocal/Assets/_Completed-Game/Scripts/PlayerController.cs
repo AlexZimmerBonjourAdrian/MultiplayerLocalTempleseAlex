@@ -8,6 +8,7 @@ using System;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour, IChange, IAttack {
     [Header("Movement")]
@@ -93,16 +94,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         }
 
         Move();
-        // Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
-
-       
-		//bool _Jump = _JumpAction.ReadValue<bool>();
-		//bool _ChangeForm = _ChangeForms_Action.ReadValue<bool>();
-        //bool _Attack_1 = _Attack_1Action.ReadValue<bool>();
-        //      bool _Attack_2 = _Attack_2Action.ReadValue<bool>();
-        // Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
-        // multiplying it by 'speed' - our public player speed that appears in the inspector
-
+     
 
 
 	
@@ -246,21 +238,6 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
 		}
 	}
 
-	// Create a standalone function that can update the 'countText' UI and check if the required amount to win has been achieved
-	/*
-	public virtual void SetCountText()
-	{
-		// Update the text field of our 'countText' variable
-		countText.text = "Count: " + count.ToString ();
-
-		// Check if our 'count' is equal to or exceeded 12
-		if (count >= 12) 
-		{
-			// Set the text value of our 'winText'
-			winText.text = "You Win!";
-		}
-	}
-	*/
 	public virtual void AsignControll()
 	{
 		_PlayerCount += 1;
@@ -487,7 +464,11 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
   //      Attack2 = _Attack_2Action.ReadValue<bool>();
   //  }
 
-
+    public virtual void AndroidControllerTest()
+    {
+      
+       
+    }
 
     public virtual void OnChange()
     {

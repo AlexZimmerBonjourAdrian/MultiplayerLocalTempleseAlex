@@ -104,6 +104,8 @@ public class CPlayer_2 : PlayerController
         base.P2Controller();
         //_rigidbodyA.AddForce(movement * speed);
         _rigidbodyA.velocity = (movement * speed);
+
+
     }
     public void ControllerAnimation()
     {

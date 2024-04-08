@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multiplayerlocal\\assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\andoidversion\\script\\androidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\andoidversion\\script\\androidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\clevelstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\clevelstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\ctestenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\ctestenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\player\\cplayer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\combo\\cattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\cattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\combo\\ccomboattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\ccomboattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\combo\\ecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\ecombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\cplayermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\cplayermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\ctestpunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\ctestpunch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\celectricattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\celectricattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\cglobalvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\cglobalvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\playerb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playerb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\playerc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playerc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\player\\cplayer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\player\\cplayer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\cmeeleattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\cmeeleattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndroidController.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\AndoidVersion\\Script\\AndroidController.cs",
+              "RelativeDocumentMoniker": "Assets\\AndoidVersion\\Script\\AndroidController.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\AndoidVersion\\Script\\AndroidController.cs",
+              "RelativeToolTip": "Assets\\AndoidVersion\\Script\\AndroidController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:00:25.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CPlayer_2.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAADwv2oAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T19:06:51.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CTestEnemy.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-27T17:43:43.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAM4BAAAAAAAAAAAAwNIBAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-22T03:47:34.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CLevelState.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-21T18:53:20.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComboInput.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-28T17:09:12.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ECombat.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-28T17:09:12.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CComboAttack.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAZAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-28T19:05:41.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CPlayerManager.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAAAHkAAAARAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-22T06:17:06.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CElectricAttack.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-21T18:53:20.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CPlayer_1.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCwAAAAIAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-25T17:18:04.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CAttack.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAPAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-28T01:22:36.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CTestPunch.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-27T17:44:29.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerC.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwBcAAAAKAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-22T18:22:55.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerB.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAswB8AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-22T18:22:42.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CGlobalValue.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwCUAAAAOAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-25T20:38:03.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CPlayer_3.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswD8AAAAyAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-25T17:22:01.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CPlayer_4.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAmAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-25T17:33:32.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CMeeleAttack.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7VNdSFNhGH7POds8znNy080/BIXldAbJcEkXiaChXRRCCIGK6E1CV/lDeZHl8EowxYtAIgxC7CIvRIe48kLDC5Vz41EmbhpDS51uudOmubNztr7vuILqoiDoyufie3nP9/B8z/tz4Bz/DCoRYc23xlTdqUpXl6rZ6NUoa6g0sJabFrasrkzjmnJ9xZxgMKhnKhi9\u002B6JbI8wJkc7OTuN28fYF\u002BbIMh/OHIuaQ\u002BMAQT8RWJM9JGolTkSpOikkcQRKcilINJigggzyI72gVPRgOhw2RWGRGDWouQkVaExQg8MF7\u002BW7nprNxZXfFTFM0FGcWA5PEABKFiBRxtJS2NGGxoYWhG/Nb85neI68PifLWXGu559BDH50cuUmCHN18vNmrOFz8uHjFG/Ca4/E41JhrwiU5JU\u002BtOVZ7gaHAnsVkvU5NTY3G4rHVbDZbMDJGIAhC0Gq0fJGxKMomsdjWLpLZwloK6l7UTda/rI/bHXZfKBR6hXqVlrj6CYEvgcm\u002Bt31xU69p6iB8kB0QAp\u002BaR5tx3pOgnPVww78BGpUGdFrdMsuyTTqd7rNymwByTqKHMvxhP30sHqMPQA8vDGf4Qj5KlEVkkGByn\u002BQqJhRBSZZwANRwJf6K7wMYeD9QPs6PQzQWvTayOOJsGGswcDscyDH5Lh4U5iqC\u002Bfp8OJVOgd/ncfobUlJSBOTqYe2lWr7CVIEfXjUbzQ\u002B6KruEQmMhoIE4UF\u002BfYa5iqbqoGlz7LnAfuM1tb9p6cM5oGEAlwl5oz02S5BiivQsEAwa0CYUkkG7nPeekP\u002Bg3Tq9Ps6jmOc8jzzLWUtZm6cNS94xrphEttzlNmwaWDAskq5NxaSBKoqP9evstzPsbKIIYs\u002BuzHWh1OiZWJ2BH2AGKpMCUboI8fd5s/\u002B3\u002BpgTtj/jxp9BAP0fBRkqkDfXEhiZro\u002BKUTY7K988Y5/g/APgG2Ocp0eSbumcAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-01-21T18:53:20.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
