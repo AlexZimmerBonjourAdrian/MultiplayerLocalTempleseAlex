@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multiplayerlocal\\assets\\andoidversion\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\andoidversion\\script\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multiplayerlocal\\assets\\_completed-game\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multiplayerlocal\\assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84077D3F-8527-99A1-BC0B-F60E6C9E7501}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\assets\\_completed-game\\scripts\\clevelstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,11 +94,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\AndoidVersion\\Script\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\AndoidVersion\\Script\\CameraController.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\AndoidVersion\\Script\\CameraController.cs",
+              "RelativeToolTip": "Assets\\AndoidVersion\\Script\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:52:24.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CameraController.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\CameraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:51:56.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AndroidController.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\AndoidVersion\\Script\\AndroidController.cs",
               "RelativeDocumentMoniker": "Assets\\AndoidVersion\\Script\\AndroidController.cs",
@@ -102,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CPlayer_2.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CTestEnemy.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CTestEnemy.cs",
@@ -127,19 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAM4BAAAAAAAAAAAAwNIBAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-22T03:47:34.367Z"
+              "WhenOpened": "2024-01-22T03:47:34.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CLevelState.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CLevelState.cs",
@@ -151,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ComboInput.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
@@ -163,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ECombat.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ECombat.cs",
@@ -175,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CComboAttack.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CComboAttack.cs",
@@ -187,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CPlayerManager.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CPlayerManager.cs",
@@ -199,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CElectricAttack.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\CElectricAttack.cs",
@@ -211,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CPlayer_1.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
@@ -223,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CAttack.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\CAttack.cs",
@@ -235,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CTestPunch.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CTestPunch.cs",
@@ -247,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PlayerC.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerC.cs",
@@ -259,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PlayerB.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerB.cs",
@@ -271,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CGlobalValue.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\CGlobalValue.cs",
@@ -283,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "CPlayer_3.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
@@ -295,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CPlayer_4.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
@@ -307,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CMeeleAttack.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\multiplayerLocal\\Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\CMeeleAttack.cs",
