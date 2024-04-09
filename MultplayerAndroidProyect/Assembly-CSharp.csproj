@@ -60,7 +60,44 @@
     <Analyzer Include="E:\UnityInstalled\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\Combo\CAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\Forms\CForm_Strong.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CGameEventManager.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\PlayerB.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CGenericBullet.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\Combo\ECombat.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\Forms\CForm_Speed.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CLevelState.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_4.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CPlayerManager.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\PlayerC.cs" />
+    <Compile Include="Assets\_Completed-Game\InputAction\CInputSystemMultiplayer.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Rotator.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\Combo\CComboAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\Forms\CForm_Distance.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CPlayer.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\PlayerA.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Interface\IChange.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CTestPunch.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CameraController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_2.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Interface\IAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\CLaserAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CGlobalValue.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CTestEnemy.cs" />
+    <Compile Include="Assets\AndoidVersion\Script\CameraController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\Combo\ComboInput.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\CFireAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\CMeeleAttack.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_3.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\CPlayer_1.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CBulletManager.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Player\Forms\CForm_Agil.cs" />
+    <Compile Include="Assets\AndoidVersion\Script\AndroidController.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\CSwitchCharacter.cs" />
+    <Compile Include="Assets\_Completed-Game\Scripts\Attack\CElectricAttack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

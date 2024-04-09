@@ -1,0 +1,84 @@
+{
+    "name": "CInputSystemMultiplayer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6b1feb08-11df-40f7-9463-b31c77ac71fe",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2bafd5de-5be6-4366-a09f-9a0bfbafdef5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f4bd8882-74c2-465f-8ca5-d269efdf4c7a",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PC Controller Schema;Xbox Controller - Player 2;Xbox Controller - Player 3;Xbox Controller - Player 4",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC Controller Schema",
+            "bindingGroup": "PC Controller Schema",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 2",
+            "bindingGroup": "Xbox Controller - Player 2",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 3",
+            "bindingGroup": "Xbox Controller - Player 3",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Xbox Controller - Player 4",
+            "bindingGroup": "Xbox Controller - Player 4",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
