@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multplayerandroidproyect\\assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multplayerandroidproyect\\assets\\_completed-game\\scripts\\player\\cplayer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\assets\\_completed-game\\scripts\\player\\cplayer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multplayerandroidproyect\\assets\\_completed-game\\scripts\\player\\cplayer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\player\\cplayer_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multplayerandroidproyect\\assets\\_completed-game\\scripts\\playera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\playera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|e:\\github_e\\multiplayerlocaltemplesealex\\multplayerandroidproyect\\assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C11BD-C35B-6603-8A2F-3FA32CB5EF0A}|Assembly-CSharp.csproj|solutionrelative:assets\\_completed-game\\scripts\\attack\\combo\\comboinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CPlayer_3.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_3.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T02:43:36.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerA.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\PlayerA.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerA.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\PlayerA.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerA.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIAwwDwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T02:43:15.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CPlayer_4.cs",
+              "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_4.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAApwBoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T02:43:05.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ComboInput.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
               "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
               "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Attack\\Combo\\ComboInput.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T01:36:32.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CPlayer_2.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
               "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
               "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_2.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwJMAAAAnAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAApwEUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:31:44.762Z"
+              "WhenOpened": "2024-04-09T00:31:44.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAiwKgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:15:18.602Z"
+              "WhenOpened": "2024-04-09T00:15:18.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CPlayer_1.cs",
               "DocumentMoniker": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
               "RelativeDocumentMoniker": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
               "ToolTip": "E:\\Github_E\\MultiplayerLocalTempleseAlex\\MultplayerAndroidProyect\\Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
               "RelativeToolTip": "Assets\\_Completed-Game\\Scripts\\Player\\CPlayer_1.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDcAAAADAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T00:14:57.537Z"
+              "WhenOpened": "2024-04-09T00:14:57.537Z",
+              "EditorCaption": ""
             }
           ]
         }

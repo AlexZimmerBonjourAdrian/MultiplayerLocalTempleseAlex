@@ -48,21 +48,21 @@ public class PlayerA : PlayerController
         base.AsignControll();
 
     }
-    public override void P2Controller()
-    {
-        base.P2Controller();
-        _rigidbodyA.AddForce(movement * speed);
-    }
-    public override void P3Controller()
-    {
-        base.P3Controller();
-        _rigidbodyA.AddForce(movement * speed);
-    }
-    public override void P4Controller()
-    {
-        base.P4Controller();
-        _rigidbodyA.AddForce(movement * speed);
-    }
+    //public override void P2Controller()
+    //{
+    //    base.P2Controller();
+    //    _rigidbodyA.AddForce(movement * speed);
+    //}
+    //public override void P3Controller()
+    //{
+    //    base.P3Controller();
+    //    _rigidbodyA.AddForce(movement * speed);
+    //}
+    //public override void P4Controller()
+    //{
+    //    base.P4Controller();
+    //    _rigidbodyA.AddForce(movement * speed);
+    //}
 
 
 }

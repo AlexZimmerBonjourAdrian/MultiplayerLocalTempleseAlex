@@ -28,7 +28,7 @@ public class CPlayer_3 : PlayerController
     public void Update()
     {
 
-        ControllerAnimation();
+     //   ControllerAnimation();
       
     }
     /*
@@ -42,7 +42,7 @@ public class CPlayer_3 : PlayerController
         base.Move();
         // rb.AddForce(movement * speed);
         // _rigidbodyA.constraints = RigidbodyConstraints.None;
-        P3Controller();
+       // P3Controller();
         //P3Controller();
         //Dar habilidades especiales
         //Pensar en que hacer 
@@ -58,46 +58,46 @@ public class CPlayer_3 : PlayerController
         base.AsignControll();
 
     }
-    public override void P3Controller()
-    {
-        base.P3Controller();
-        _rigidbodyA.velocity = (movement * speed);
-    }
+    //public override void P3Controller()
+    //{
+    //    base.P3Controller();
+    //    _rigidbodyA.velocity = (movement * speed);
+    //}
 
-    public void ControllerAnimation()
-    {
-        if (Input.GetKey(KeyCode.V))
-        {
-            AnimationSpeed = 1;
-            animatorController.SetFloat("Speed", AnimationSpeed);
-        }
-        else
-        {
-            if (AnimationSpeed > 0)
-            {
-                AnimationSpeed -= 0.10f;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    //public void ControllerAnimation()
+    //{
+    //    if (Input.GetKey(KeyCode.V))
+    //    {
+    //        AnimationSpeed = 1;
+    //        animatorController.SetFloat("Speed", AnimationSpeed);
+    //    }
+    //    else
+    //    {
+    //        if (AnimationSpeed > 0)
+    //        {
+    //            AnimationSpeed -= 0.10f;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
 
-            else if (AnimationSpeed <= 0)
-            {
-                AnimationSpeed = 0;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    //        else if (AnimationSpeed <= 0)
+    //        {
+    //            AnimationSpeed = 0;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
 
 
-        }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //    {
 
-            ISjumpAnimation = true;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            ISjumpAnimation = false;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
+    //        ISjumpAnimation = true;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        ISjumpAnimation = false;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
 
-        }
-    }
+    //    }
+    //}
 }

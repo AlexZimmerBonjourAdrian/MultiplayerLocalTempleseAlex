@@ -166,7 +166,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
 
             case 1:
               
-                P2Controller();
+               // P2Controller();
                 //_MoveAction = _defaultPlayerAction.Player.Move;
                 //_MoveAction.Enable();
 
@@ -189,7 +189,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 break;
             case 2:
                // Debug.Log("Player 3");
-                P3Controller();
+               // P3Controller();
                 //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
                 //moveVertical=Input.GetAxis("VerticalPlayer2");
                 //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
@@ -197,7 +197,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 break;
 
             case 3:
-                P4Controller();
+               // P4Controller();
                // Debug.Log("Player 4");
 
 
@@ -301,7 +301,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
 
             case 1:
               //  Debug.Log("Player 2");
-                P2Controller();
+             //   P2Controller();
                 //_MoveAction = _defaultPlayerAction.Player.Move;
                 //_MoveAction.Enable();
 
@@ -324,7 +324,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 break;
             case 2:
               //  Debug.Log("Player 3");
-                P3Controller();
+              //  P3Controller();
                 //moveHorizontal= Input.GetAxis("HorizontalPlayer2");
                 //moveVertical=Input.GetAxis("VerticalPlayer2");
                 //movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
@@ -332,7 +332,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 break;
 
             case 3:
-                P4Controller();
+              //  P4Controller();
               //  Debug.Log("Player 4");
 
 
@@ -369,56 +369,56 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
     }
    
 	
-    public virtual void P2Controller()
-    {
+    //public virtual void P2Controller()
+    //{
 
-        float moveHorizontal;
-        float moveVertical;
+    //    float moveHorizontal;
+    //    float moveVertical;
 
-       // Debug.Log("Player 2 Controller");
-        moveHorizontal = Input.GetAxisRaw("HorizontalP2");
-      //  Debug.Log("Horizontal: "+ moveHorizontal);
-        moveVertical = Input.GetAxis("VerticalP2");
-       // Debug.Log("Horizontal: " + moveHorizontal);
-        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        movement.Normalize();
-        var movementDirection = new Vector3(movement.x, 0.0f, movement.z);
-        movementDirection.Normalize();
+    //   // Debug.Log("Player 2 Controller");
+    //    moveHorizontal = Input.GetAxisRaw("HorizontalP2");
+    //  //  Debug.Log("Horizontal: "+ moveHorizontal);
+    //    moveVertical = Input.GetAxis("VerticalP2");
+    //   // Debug.Log("Horizontal: " + moveHorizontal);
+    //    movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+    //    movement.Normalize();
+    //    var movementDirection = new Vector3(movement.x, 0.0f, movement.z);
+    //    movementDirection.Normalize();
 
-        if(movementDirection != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
-        }
+    //    if(movementDirection != Vector3.zero)
+    //    {
+    //        Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+    //        transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
+    //    }
 
-        //if(Input.GetButtonDown("P2SoftPunch"))
-        //{
-        //    //Debug.Log("Entra en Soft Punch");
-        //     Attack_GameObject.SetActive(true);
-        //    //Debug.Log(Attack_GameObject.activeSelf);
-        //    Golpe();
-        //}
+    //    //if(Input.GetButtonDown("P2SoftPunch"))
+    //    //{
+    //    //    //Debug.Log("Entra en Soft Punch");
+    //    //     Attack_GameObject.SetActive(true);
+    //    //    //Debug.Log(Attack_GameObject.activeSelf);
+    //    //    Golpe();
+    //    //}
        
-        //else if (Input.GetButtonDown("P2HardPunch"))
-        //{
-        //    // Debug.Log("Entra en Hard Punch");
-        //    Attack_GameObject.SetActive(true);
-        //    Golpe();
-        //}
+    //    //else if (Input.GetButtonDown("P2HardPunch"))
+    //    //{
+    //    //    // Debug.Log("Entra en Hard Punch");
+    //    //    Attack_GameObject.SetActive(true);
+    //    //    Golpe();
+    //    //}
         
-        //else
-        //{
-        //    //Attack_GameObject.SetActive(false);
-        //    Invoke("DesactiveHit", 5f);
-        //}
+    //    //else
+    //    //{
+    //    //    //Attack_GameObject.SetActive(false);
+    //    //    Invoke("DesactiveHit", 5f);
+    //    //}
       
-        ////else if (Input.GetButtonUp("P2HardPunch"))
-        ////{
-        ////    // Debug.Log("Entra en Hard Punch");
-        ////    Attack_GameObject.SetActive(false);
-        ////}
+    //    ////else if (Input.GetButtonUp("P2HardPunch"))
+    //    ////{
+    //    ////    // Debug.Log("Entra en Hard Punch");
+    //    ////    Attack_GameObject.SetActive(false);
+    //    ////}
 
-    }
+    //}
     public void DesactiveHit()
     {
         if (Attack_GameObject.activeSelf==true)
@@ -427,30 +427,30 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         }
     }
 
-    public virtual void P3Controller()
-    {
+    //public virtual void P3Controller()
+    //{
 
-        float moveHorizontal;
-        float moveVertical;
+    //    float moveHorizontal;
+    //    float moveVertical;
 
-        moveHorizontal = Input.GetAxis("HorizontalP3");
-        moveVertical = Input.GetAxis("VerticalP3");
-        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+    //    moveHorizontal = Input.GetAxis("HorizontalP3");
+    //    moveVertical = Input.GetAxis("VerticalP3");
+    //    movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
        
 
-    }
-    public virtual void P4Controller()
-    {
+    //}
+    //public virtual void P4Controller()
+    //{
 
-        float moveHorizontal;
-        float moveVertical;
+    //    float moveHorizontal;
+    //    float moveVertical;
 
 
-        moveHorizontal = Input.GetAxis("HorizontalP4");
-        moveVertical = Input.GetAxis("VerticalP4");
-        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+    //    moveHorizontal = Input.GetAxis("HorizontalP4");
+    //    moveVertical = Input.GetAxis("VerticalP4");
+    //    movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
       
-    }
+    //}
 
     public int GePlayerCount()
     {

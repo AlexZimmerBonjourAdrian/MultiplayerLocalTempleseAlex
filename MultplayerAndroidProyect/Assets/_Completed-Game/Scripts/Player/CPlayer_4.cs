@@ -24,50 +24,50 @@ public class CPlayer_4 : PlayerController
     // Update is called once per frame
     void Update()
     {
-         ControllerAnimation();
+         //ControllerAnimation();
     }
 
-    public override void P4Controller()
-    {
-        base.P4Controller();
-    }
+    //public override void P4Controller()
+    //{
+    //    base.P4Controller();
+    //}
 
-    public void ControllerAnimation()
-    {
-        if (Input.GetKey(KeyCode.V))
-        {
-            AnimationSpeed = 1;
-            animatorController.SetFloat("Speed", AnimationSpeed);
-        }
-        else
-        {
-            if (AnimationSpeed > 0)
-            {
-                AnimationSpeed -= 0.10f;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    //public void ControllerAnimation()
+    //{
+    //    if (Input.GetKey(KeyCode.V))
+    //    {
+    //        AnimationSpeed = 1;
+    //        animatorController.SetFloat("Speed", AnimationSpeed);
+    //    }
+    //    else
+    //    {
+    //        if (AnimationSpeed > 0)
+    //        {
+    //            AnimationSpeed -= 0.10f;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
 
-            else if (AnimationSpeed <= 0)
-            {
-                AnimationSpeed = 0;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    //        else if (AnimationSpeed <= 0)
+    //        {
+    //            AnimationSpeed = 0;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
 
 
-        }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //    {
 
-            ISjumpAnimation = true;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            ISjumpAnimation = false;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
+    //        ISjumpAnimation = true;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        ISjumpAnimation = false;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
 
-        }
-    }
+    //    }
+    //}
 
     //Todo: Implementar Despues no es importante
 }

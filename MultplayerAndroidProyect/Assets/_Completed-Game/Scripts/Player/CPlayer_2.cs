@@ -63,11 +63,11 @@ public class CPlayer_2 : PlayerController
 
         if(isTestAnimation == true)
         {
-            ControllerAnimationTest();
+          //  ControllerAnimationTest();
         }
         else
         {
-            ControllerAnimation();
+          //  ControllerAnimation();
         }
     }
     /*
@@ -99,104 +99,104 @@ public class CPlayer_2 : PlayerController
         base.AsignControll();
 
     }
-    public override void P2Controller()
-    {
-        base.P2Controller();
-        //_rigidbodyA.AddForce(movement * speed);
-        _rigidbodyA.velocity = (movement * speed);
-
-
-    }
-    public void ControllerAnimation()
-    {
-
-        animatorController.SetFloat("Speed", movement.magnitude);
-
-
-        if (AnimationSpeed > 0)
-        {
-            AnimationSpeed -= 0.10f;
-            animatorController.SetFloat("Speed", movement.magnitude);
-        }
-
-        else if (AnimationSpeed <= 0)
-        {
-            AnimationSpeed = 0;
-            animatorController.SetFloat("Speed", movement.magnitude);
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-
-            ISjumpAnimation = true;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            ISjumpAnimation = false;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-
-        }
-
-    }
-
-    //public void Atacar(GameObject enemigo)
+    //public override void P2Controller()
     //{
-    //    GetComponent<Animation>().Play(animacion.name);
+    //    base.P2Controller();
+    //    //_rigidbodyA.AddForce(movement * speed);
+    //    _rigidbodyA.velocity = (movement * speed);
+
+
+    //}
+    //public void ControllerAnimation()
+    //{
+
+    //    animatorController.SetFloat("Speed", movement.magnitude);
+
+
+    //    if (AnimationSpeed > 0)
+    //    {
+    //        AnimationSpeed -= 0.10f;
+    //        animatorController.SetFloat("Speed", movement.magnitude);
+    //    }
+
+    //    else if (AnimationSpeed <= 0)
+    //    {
+    //        AnimationSpeed = 0;
+    //        animatorController.SetFloat("Speed", movement.magnitude);
+    //    }
+
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //    {
+
+    //        ISjumpAnimation = true;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        ISjumpAnimation = false;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+
+    //    }
+
     //}
 
-    public void ControllerAnimationTest()
-    {
-        if (Input.GetKey(KeyCode.V))
-        {
-            AnimationSpeed = 1;
-            animatorController.SetFloat("Speed", AnimationSpeed);
-        }
-        else
-        {
-            if (AnimationSpeed > 0)
-            {
-                AnimationSpeed -= 0.10f;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    ////public void Atacar(GameObject enemigo)
+    ////{
+    ////    GetComponent<Animation>().Play(animacion.name);
+    ////}
 
-            else if (AnimationSpeed <= 0)
-            {
-                AnimationSpeed = 0;
-                animatorController.SetFloat("Speed", AnimationSpeed);
-            }
+    //public void ControllerAnimationTest()
+    //{
+    //    if (Input.GetKey(KeyCode.V))
+    //    {
+    //        AnimationSpeed = 1;
+    //        animatorController.SetFloat("Speed", AnimationSpeed);
+    //    }
+    //    else
+    //    {
+    //        if (AnimationSpeed > 0)
+    //        {
+    //            AnimationSpeed -= 0.10f;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
+
+    //        else if (AnimationSpeed <= 0)
+    //        {
+    //            AnimationSpeed = 0;
+    //            animatorController.SetFloat("Speed", AnimationSpeed);
+    //        }
 
 
-        }
-        if (Input.GetKeyDown(KeyCode.C))
-        {
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.C))
+    //    {
 
-            ISjumpAnimation = true;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
-        }
-        else if (Input.GetKeyDown(KeyCode.G))
-        {
-            ISjumpAnimation = false;
-            animatorController.SetBool("IsJump", ISjumpAnimation);
+    //        ISjumpAnimation = true;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.G))
+    //    {
+    //        ISjumpAnimation = false;
+    //        animatorController.SetBool("IsJump", ISjumpAnimation);
 
-        }
+    //    }
 
-        else if(Input.GetKeyDown(KeyCode.Mouse0))
-        {
-           IsPunchAnimation = true;
-           animatorController.SetBool("IsPunch", IsPunchAnimation);
+    //    else if(Input.GetKeyDown(KeyCode.Mouse0))
+    //    {
+    //       IsPunchAnimation = true;
+    //       animatorController.SetBool("IsPunch", IsPunchAnimation);
            
-        }
+    //    }
 
-        else if(Input.GetKeyUp(KeyCode.Mouse0))
-        {
-            IsPunchAnimation = false;
-            animatorController.SetBool("IsPunch", IsPunchAnimation);
-        }
+    //    else if(Input.GetKeyUp(KeyCode.Mouse0))
+    //    {
+    //        IsPunchAnimation = false;
+    //        animatorController.SetBool("IsPunch", IsPunchAnimation);
+    //    }
 
 
 
-    }
+    //}
 
 
 
