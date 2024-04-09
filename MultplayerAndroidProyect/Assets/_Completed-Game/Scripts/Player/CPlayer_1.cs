@@ -53,7 +53,7 @@ public class CPlayer_1 : PlayerController
         //Dar habilidades especiales
         //Pensar en que hacer 
     }
-
+   
     public override void EspecialHability()
     {
         base.EspecialHability();

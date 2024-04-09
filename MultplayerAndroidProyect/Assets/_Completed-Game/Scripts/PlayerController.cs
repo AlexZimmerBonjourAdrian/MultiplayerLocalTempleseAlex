@@ -8,7 +8,6 @@ using System;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
-using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour, IChange, IAttack {
     [Header("Movement")]
@@ -102,8 +101,29 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         
 
     }
+    public virtual void P1Controller()
+    {
 
-	public virtual void Move()
+
+
+        //moveVector = _MoveAction.ReadValue<Vector2>();
+        //movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+        //var movementDirection = new Vector3(movement.x, 0.0f, movement.y);
+        //movementDirection.Normalize();
+        //movement.Normalize();
+        //moveVector = _MoveAction.ReadValue<Vector2>();
+        //movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
+        //var movementDirection = new Vector3(moveVector.x, 0.0f, moveVector.y);
+        //movementDirection.Normalize();
+        //// Debug.Log("Player 2 Controller");
+
+        //if (movementDirection != Vector3.zero)
+        //{
+        //    Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+        //    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
+        //}
+    }
+    public virtual void Move()
 	{
         //float moveHorizontal;
         //float moveVertical;
@@ -117,16 +137,22 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
                 movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
                 var movementDirection = new Vector3(moveVector.x, 0.0f, moveVector.y);
                 movementDirection.Normalize();
+
+                if (movementDirection != Vector3.zero)
+                {
+                    Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+                    transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
+                }
                 //Vector3 movementDirection = new Vector3(movement.x, 0, movement.y);
                 //transform.Translate(movement * speed * Time.deltaTime, Space.World);
 
                 //if (movementDirection != Vector3.zero)
                 //{
 
-              
+
                 // Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up); ;
                 //  transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, speed);
-                
+
                 //}
                 //Vector3 movementDirection = new Vector3(movement.x, 0, movement.y);
                 //movementDirection.Normalize();
@@ -341,25 +367,7 @@ public class PlayerController : MonoBehaviour, IChange, IAttack {
         //_defaultPlayerAction.Player.Attack1.Disable();
         //_defaultPlayerAction.Player.Attack2.Disable();
     }
-    public virtual void P1Controller()
-    {
- 
-
-
-        moveVector = _MoveAction.ReadValue<Vector2>();
-        movement = new Vector3(moveVector.x, 0.0f, moveVector.y);
-        var movementDirection = new Vector3(moveVector.x, 0.0f, moveVector.y);
-        movementDirection.Normalize();
-        movement.Normalize();
-        // Debug.Log("Player 2 Controller");
-        movementDirection.Normalize();
-
-        if (movementDirection != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, _rotationspeed /** 2 *Time.deltaTime*/);
-        }
-    }
+   
 	
     public virtual void P2Controller()
     {
