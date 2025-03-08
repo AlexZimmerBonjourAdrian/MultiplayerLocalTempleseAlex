@@ -48,4 +48,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
     guid: 711b38c07f2cf904f81b3422c67f1825
+  - enabled: 1
+    path: Assets/PlaneGame/Scenes/OriginalGame/TanksGame-LobbyScene.unity
+    guid: 643009cd99b972e41ac8d556c613f351
+  - enabled: 1
+    path: Assets/PlaneGame/Scenes/OriginalGame/TanksGame-GameScene.unity
+    guid: 548b5d15c6873cb468b2e98225feabcd
+  - enabled: 1
+    path: Assets/RollaBallBasicGame/Roll-a-ball.unity
+    guid: f5ecd2294d620416d9c805bada1641f3
   m_configObjects: {}

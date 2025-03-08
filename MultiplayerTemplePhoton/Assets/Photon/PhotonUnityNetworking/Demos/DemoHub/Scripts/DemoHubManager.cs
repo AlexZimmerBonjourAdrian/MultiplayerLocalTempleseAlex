@@ -68,6 +68,28 @@ namespace Photon.Pun.Demo.Hub
 				TutorialLink = "https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/intro"
                 }
 			);
+
+			_data.Add(
+				"Roll-a-ball", 
+					new DemoData()
+					{
+						Title = "Roll multiplayer game",
+						Description = "Controls most aspect of PUN.\n" + "game" +
+							"Connection, Lobby, Room access, Player control",
+					Scene = "Roll-a-ball"
+					}
+			);
+			
+			_data.Add(
+				"TanksGame", 
+					new DemoData()
+					{
+						Title = "TanksGame",
+						Description = "Controls most aspect of PUN.\n" +
+							"Connection, Lobby, Room access, Player control",
+					Scene = "TanksGame-LobbyScene"
+					}
+			);
 			
 			_data.Add(
 				"Chat", 

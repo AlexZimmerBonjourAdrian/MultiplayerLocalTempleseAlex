@@ -50,7 +50,7 @@ public class CKeyboard
 
     #region Segundo Jugador
 
-    private KeyCode Return = KeyCode.Return;
+
     #endregion
     public float getMouseAxisX()
     {
