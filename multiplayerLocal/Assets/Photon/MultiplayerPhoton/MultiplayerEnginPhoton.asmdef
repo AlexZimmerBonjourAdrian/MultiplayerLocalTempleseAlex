@@ -1,0 +1,24 @@
+{
+    "name": "Photon",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:08a110bd598f7604f9519c2d7e1fb3cc",
+        "GUID:831409e8f9d13b5479a3baef9822ad34",
+        "GUID:57c32fc907df0f54e8e6e8f0d2488336",
+        "GUID:35cc2632df2760540bcc67312740008b",
+        "GUID:a738238285a7a8246af046cbf977522f",
+        "GUID:06dafbbe6b7b3a84f84213f47aabe7f0",
+        "GUID:7024f760fc566cf45a16d2c838e22b2d",
+        "GUID:a10ff188cbfd201409863c062b118e1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -130,3 +130,37 @@ The following packages were updated:
   com.unity.test-framework from version 1.1.31 to 1.1.33
   com.unity.timeline from version 1.6.4 to 1.7.6
   com.unity.xr.legacyinputhelpers from version 2.1.9 to 2.1.10
+
+=== Sat Mar  8 20:42:56 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.modules.accessibility@1.0.0
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ai.navigation from version 1.1.5 to 2.0.5
+  com.unity.collab-proxy from version 2.2.0 to 2.6.0
+  com.unity.ide.rider from version 3.0.27 to 3.0.31
+  com.unity.inputsystem from version 1.7.0 to 1.11.2
+  com.unity.localization from version 1.4.5 to 1.5.2
+  com.unity.multiplayer.tools from version 1.1.1 to 2.2.1
+  com.unity.postprocessing from version 3.2.2 to 3.4.0
+  com.unity.probuilder from version 5.2.2 to 6.0.4
+  com.unity.purchasing from version 4.10.0 to 4.12.2
+  com.unity.recorder from version 4.0.2 to 5.1.2
+  com.unity.render-pipelines.universal from version 14.0.9 to 17.0.3
+  com.unity.services.lobby from version 1.1.2 to 1.2.2
+  com.unity.services.matchmaker from version 1.1.2 to 1.1.5
+  com.unity.services.multiplay from version 1.1.1 to 1.2.5
+  com.unity.services.user-reporting from version 2.0.9 to 2.0.11
+  com.unity.shadergraph from version 14.0.9 to 17.0.3
+  com.unity.splines from version 2.5.2 to 2.7.2
+  com.unity.test-framework from version 1.1.33 to 1.4.5
+  com.unity.timeline from version 1.7.6 to 1.8.7
+  com.unity.ugui from version 1.0.0 to 2.0.0
+  com.unity.visualeffectgraph from version 14.0.9 to 17.0.3
+  com.unity.xr.legacyinputhelpers from version 2.1.10 to 2.1.11
+The following packages were removed:
+  com.unity.textmeshpro@3.0.8
